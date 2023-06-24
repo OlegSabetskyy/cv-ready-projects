@@ -1,0 +1,47 @@
+<!ELEMENT jocs (joc_pack+, plataformes, generes, idiomes, desenvolupadora, requisits)>
+<!ELEMENT joc_pack (joc+, nom, descripcio, fons_img)>
+<!ELEMENT joc (caratula, requisitsMinims*, requisitsRecomendats*, data_llancament, preu, puntuacio, descompte, venuts)>
+<!ELEMENT caratula (#PCDATA)>
+<!ELEMENT requisitsMinims (ram_m, hdd_m, cpu_m, so_m)>
+<!ELEMENT ram_m (#PCDATA)>
+<!ELEMENT hdd_m (#PCDATA)>
+<!ELEMENT cpu_m (#PCDATA)>
+<!ELEMENT so_m (#PCDATA)>
+<!ELEMENT requisitsRecomendats (ram_r, hdd_r, cpu_r, so_r*)>
+<!ELEMENT ram_r (#PCDATA)>
+<!ELEMENT hdd_r (#PCDATA)>
+<!ELEMENT cpu_r (#PCDATA)>
+<!ELEMENT so_r (#PCDATA)>
+<!ELEMENT data_llancament (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT puntuacio (#PCDATA)>
+<!ELEMENT descompte (#PCDATA)>
+<!ELEMENT venuts (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT fons_img (#PCDATA)>
+
+<!ELEMENT plataformes (plataforma+)>
+<!ELEMENT plataforma (#PCDATA)>
+
+<!ELEMENT generes (genere+)>
+<!ELEMENT genere (#PCDATA)>
+
+<!ELEMENT idiomes (idioma+)>
+<!ELEMENT idioma (#PCDATA)>
+
+<!ELEMENT desenvolupadora (desenvolupador+)>
+<!ELEMENT desenvolupador (#PCDATA)>
+
+<!ELEMENT requisits (requisit+)>
+<!ELEMENT requisit (#PCDATA)>
+
+
+<!ATTLIST joc id ID #REQUIRED>
+<!ATTLIST so_m id ID #REQUIRED>
+<!ATTLIST so_r id ID #REQUIRED>
+<!ATTLIST plataforma ref IDREFS #REQUIRED>
+<!ATTLIST genere ref IDREFS #REQUIRED>
+<!ATTLIST idioma ref IDREFS #REQUIRED>
+<!ATTLIST desenvolupador ref IDREFS #IMPLIED>
+<!ATTLIST requisit ref IDREFS #IMPLIED>

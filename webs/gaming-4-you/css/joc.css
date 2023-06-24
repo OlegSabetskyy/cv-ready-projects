@@ -1,0 +1,547 @@
+#joc{
+    margin-top: 12vw;
+}
+
+#atributsJoc{
+    display:inline-block;
+    width: 35vw;
+    top:1vw;
+}
+
+#atributsJoc p{
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0.5vw;
+}
+
+#atributsJoc p:nth-child(1){
+    margin-bottom: 0.4vw;
+    font-size: 1.5vw;
+}
+
+#atributsJoc p:nth-child(2){
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
+}
+
+#juntar_nom{
+    display:inline-block;
+    width: 56.5vw;
+    margin-left: 2vw;
+}
+
+#juntar_nom>p{
+    font-size: 3.3vw;
+    color:#2e7af4;
+    margin-bottom: 1vw;
+    width: 40vw;
+    display:inline-block;
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #2e7af4;
+    width: 56vw;
+    font-weight: 700;
+}
+
+#caratula{
+    width: 13vw;
+    margin-left: 2vw;
+    float:left;
+}
+
+#nom_joc{
+    display:inline-block;
+}
+
+#publisher{
+    margin-right: 0.5vw;
+}
+
+#descripcio_joc{
+    text-align: justify;
+    font-size: 0.9vw;
+    border-right:0.1px solid black;
+    padding-right: 0.5vw;
+}
+#plataforma{
+    margin-left: 2vw;
+}
+
+#preuJocs{
+    display: inline-block;
+    float:right;
+    width: 20.5vw;
+    margin-left: 0.5vw;
+    position: relative;
+}
+
+#preuJocs p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#llancament{
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+
+#centrar_puntuacio{
+    text-align: center;
+    margin-top: 0.75vw;
+}
+
+#puntuacio{
+    margin-right: 2vw;
+    display:inline-block;
+    padding:.75vw 1.5vw;
+    font-weight: 600;
+    font-size: 2vw;
+    background-color:limegreen;
+    margin-bottom: .75vw;
+}
+
+#preu{
+    display:inline-block;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color:darkgray;
+    text-decoration: line-through;
+/*    margin-left: 4vw;*/
+/*    margin-right: 1vw;*/
+/*    margin-top: 0.5vw;*/
+}
+
+#preu_placeholder{
+    display: block;
+}
+#preus{
+    clear:both;
+}
+
+#preuFinal{
+    display:inline-block;
+    font-size: 2.5vw;
+    font-weight: 600;
+    left:0;
+    margin-left: 3vw;
+    top:0;
+    color:black;
+/*    border:1px solid red;*/
+    display:inline-block;
+    position: relative;
+    margin-top: 1vw;
+    float:none;
+}
+
+#preu{
+    display:inline-block;
+    top:9.5vw;
+    font-size: 1.25vw;
+    margin-left: 3vw;
+    float:left;
+    margin-top: 1.75vw;
+    display:inline-block;
+/*    position: absolute;*/
+}
+
+#simbol_preu{
+/*    position: absolute;*/
+    display:inline-block;
+    font-size: 3.5vw;
+    bottom:auto;
+    margin-top: 0.25vw;
+    margin-left: -1.25vw;
+    float:left;
+}
+
+#comprar_a{
+    display:inline-block;
+    margin:0 auto;
+    display:block;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 0.5vw;
+    text-decoration: none;
+}
+
+#comprar:hover{
+    background-color: white;
+}
+
+#comprar:hover p{
+    color:limegreen;
+}
+
+#comprar{
+    background-color: limegreen;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    transition: all 0.4s;
+    border:0.2vw solid limegreen;
+}
+
+#comprar p{
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+#requisits_idiomes{
+    margin-left: 2vw;
+    width: 71.5vw;
+    margin-top: 1vw;
+}
+
+
+#requisitos_minimos_div, #requisitos_recomendados_div{
+    margin-left: 0.5vw;
+    display:inline-block;
+    width: 35vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#requisitos_minimos_div p:nth-child(1), #requisitos_recomendados_div p:nth-child(1){
+    border-bottom: .1vw solid black;
+    width: 31vw;
+    margin-top: 0.6vw;
+}
+
+#requisitos_minimos_div p:nth-child(2), #requisitos_recomendados_div p:nth-child(2){
+    margin-top: 0.35vw;
+    font-size: 0.9vw;
+    margin-left: 0.4vw;
+}
+
+#requisitos_minimos_div p:nth-child(3), #requisitos_recomendados_div p:nth-child(3), #requisitos_minimos_div p:nth-child(4), #requisitos_recomendados_div p:nth-child(4), #requisitos_minimos_div p:nth-child(5), #requisitos_recomendados_div p:nth-child(5){
+    margin-left: 0.4vw;
+    font-size: 0.9vw;
+}
+
+
+#requisitos_minimos_div p, #requisitos_recomendados_div p{
+    font-size: 1.25vw;
+}
+
+#idiomes{
+    margin-top: 1vw;
+    width: 66.5vw;
+    margin-left: 0.4vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25vw;
+    border-bottom: 0.1vw solid black;
+}
+
+#idiomes_dades{
+    margin-left: 0.8vw;
+    margin-top: 0.35vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
+}
+
+
+#requisitos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color:#fc9449;
+    border-bottom: 0.1vw solid #fc9449;
+}
+
+/*-----------*/
+/*PLATAFORMES*/
+/*-----------*/
+.PC, .PS4, .PS3, .PS2, .XBoxOne, .Xbox360, .WiiU, .Wii{
+    text-align: left;
+    float:none;
+    border-radius: 10vw;
+    vertical-align: top;
+    color:white;
+    padding-top:1vw;
+    font-size: 0.9vw;
+    padding-left: 0.8vw;
+}
+
+.XBoxOne{
+    width: 7vw;
+}
+
+.PS2, .PS3, .PS4{
+    width: 8vw;
+}
+
+.WiiU{
+    width: 4vw;
+}
+
+/*----------*/
+/*--TABLET--*/
+/*----------*/
+@media only screen and (max-width: 768px){
+    #atributsJoc{
+        width: 54vw;
+    }
+    
+    #atributsJoc p:nth-child(1){
+        font-size: 2.5vw;
+    }
+    
+    #juntar_nom{
+        width: 50vw;
+    }
+    
+    #caratula{
+        width: 20vw;
+    }
+    
+    #atributsJoc p:nth-child(2){
+        font-size: 2vw;
+    }
+    
+    #atributsJoc p{
+        font-size: 1.5vw;
+    }
+    
+    #llancament{
+        display:none;
+    }
+    
+    #preuJocs{
+        width: 76vw;
+        margin-left: -22.25vw;
+        float:left;
+        margin-top: 5vw;
+    }
+    #centrar_puntuacio{
+        width: 20vw;
+        display:inline-block;
+        float:left;
+    }
+    
+    #preus{
+        width: 20vw;
+        float:left;
+        clear: none;
+    }
+    
+    #comprar_a{
+        display:inline-block;
+        float:left;
+        width: 20vw;
+    }
+    
+    #requisits_idiomes{
+        display:none;
+    }
+    
+    #puntuacio{
+        font-size: 4vw;
+        padding:1vw 2vw;
+        margin-left: 0px;
+    }
+    
+    .PC, .PS4, .PS3, .PS2, .XBoxOne, .Xbox360, .WiiU, .Wii{
+        padding-top:1.5vw;
+        font-size: 3vw;
+        padding-left: 1vw;
+        width: 6.5vw;
+        height: 6.5vw;
+        margin-left: 0px;
+    }
+
+    .XBoxOne{
+        width: 7vw;
+    }
+
+    .PS2, .PS3, .PS4{
+        width: 8vw;
+    }
+
+    .WiiU{
+        width: 4vw;
+    }
+    
+    #preu_placeholder{
+        text-align: center;
+    }
+    
+    #preu{
+        font-size: 2.5vw;
+        margin-top: 2vw;
+        margin-left: 5vw;
+    }
+    
+    #preus{
+        width: 40vw;
+    }
+    
+    #simbol_preu{
+        margin-left: 26.5vw;
+        font-size: 5vw;
+/*        margin-top: -.5vw;*/
+    }
+    
+    #preuFinal{
+        font-size: 4vw;
+        margin-left: 5vw;
+    }
+    
+    #comprar_a{
+        width: 14vw;
+    }
+    
+    #preu_placeholder{
+        border-bottom: 1px solid black;
+    }
+    
+    #comprar{
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        border: 0.4vw solid limegreen;
+    }
+    
+    #comprar_a{
+        margin-left: 0px;
+        margin-right: 0px;
+        float:left;
+        margin-top: -3vw;
+        margin-left: 1.5vw;
+    }
+    
+    #comprar p{
+        font-size: 2.5vw;
+    }
+    
+    #descripcio_joc{
+        border-right: 0px;
+    }
+    
+    #preuJocs{
+        margin-top: 10vw;
+    }
+    .PS3, .PS4, .XBoxOne, .PS2{
+        display:none;
+    }
+    #idiomes{
+        display:none;
+    }
+    #idiomes_dades{
+        display:none;
+    }
+}
+
+/*MOBIL*/
+@media only screen and (max-width: 360px){
+    
+    #descripcio_joc{
+        display:none;
+    }
+    #joc>img{
+        width: 30vw;
+        margin-bottom: 2vw;
+    }
+    #juntar_nom{
+/*        float:left;*/
+        position: absolute;
+        
+    }
+    #juntar_nom > p{
+        width: 37vw;
+    }
+    
+    main{
+        height: 50vw;
+    }
+    
+    #preu_placeholder{
+        display:none;
+    }
+    #centrar_puntuacio{
+        margin-left: 22vw;
+        width: 40vw;
+    }
+    #puntuacio{
+        font-size: 7vw;
+    }
+    
+    #preuJocs{
+        margin-top: 1vw;
+    }
+    #idiomes{
+        display:none;
+    }
+    #idiomes_dades{
+        display:none;
+    }
+    
+    .PC, .PS4, .PS3, .PS2, .XBoxOne, .Xbox360, .WiiU, .Wii{
+        padding-top:2.5vw;
+        font-size: 6vw;
+        padding-left: 1vw;
+        width: 12vw;
+        height: 12vw;
+        margin-left: 0px;
+        margin-top: -1vw;
+        margin-bottom: 0px;
+    }
+
+    .XBoxOne{
+        width: 7vw;
+    }
+
+    .PS2, .PS3, .PS4{
+        width: 8vw;
+    }
+
+    .WiiU{
+        width: 4vw;
+    }
+    #preus{
+        margin-left: 18vw;
+        width: 70vw;
+    }
+    #comprar >p{
+        font-size: 4vw;
+    }
+    
+    #preu{
+        font-size: 4vw;
+    }
+    #preuFinal{
+        font-size: 5vw;
+        margin-top: 1.5vw;
+    }
+    
+    #simbol_preu{
+        margin-top: 1.5vw;
+        margin-left: 29vw;
+    }
+    
+    #comprar_a{
+        width: 37vw;
+        margin-left: 22vw;
+        margin-top: 0vw;
+    }
+    
+    #publisher{
+        font-size: 6vw;
+    }
+    #plataforma{
+        font-size: 40vw;
+    }
+     #caratula{
+        width: 25vw;
+        height: 48vw;
+    }
+    
+    #comprar{
+        border:.6vw solid limegreen;
+    }
+    .PS3, .PS4, .XboxOne, .PS2{
+        display:none;
+    }
+    #nomJoc{
+        height: 8vw;
+        overflow: hidden;
+    }
+}

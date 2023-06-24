@@ -1,0 +1,3456 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header{
+    display:inline;
+}
+
+/*Header Alt*/
+
+header #HeaderSticky{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: rgb(255, 173, 0);
+}
+
+header #HeaderAlt{
+    width: 91.15%;
+    margin:0 auto;
+    height: 54px;
+}
+
+header #HeaderSticky_Tablet{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: rgb(255, 173, 0);
+}
+
+#HeaderAlt_Tablet{
+    clear:both;
+    display:none;   
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 173, 0);
+}
+
+#HeaderAlt_Tablet a:nth-child(1)>span{
+    display:inline-block;
+    position:relative;
+    vertical-align: top;
+    z-index: 10;
+    margin-top: 7px;
+    margin-left: 16px;
+}
+
+.icon-menu{
+    color:white;
+    font-size: 25px;
+}
+
+#Centrar_logo{
+    position:absolute;
+    width: 100%;
+    height: 40px;
+    top:0;
+    z-index: 2;
+}
+
+#logo_Tablet{
+    margin:0 auto;
+    overflow: hidden;
+    height: 100%;
+    width: 60px;
+    background-color: white;
+    z-index: 1;
+}
+
+header #HeaderAlt_Tablet #logo_Tablet img{
+    display:block;
+    margin:0 auto;
+    width: 100%;
+    margin-top:-32px;
+}
+
+header #HeaderAlt #logo{
+    float:left;
+    overflow: hidden;
+    height: 54px;
+    width: 96px;
+    background-color: white;
+}
+
+header #HeaderAlt #logo img{
+    display:block;
+    margin:0 auto;
+    width: 80px;
+    margin-top:-42px;
+}
+
+/* HEADER img */
+.Header_Imatges{
+    float:left;
+    width: 120px;
+    height: 54px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(1){
+    background-image: url(../img/Header_Games.svg);
+    background-size: 125%;
+    margin-left: 0.2%;/*24px*/
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(1):hover{
+    background-image: url(../img/Header_Games_Hover.svg);
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(2){
+    background-image: url(../img/Header_Store.svg);
+    background-size: 60%;
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(2):hover{
+    background-image: url(../img/Header_Store_Hover.svg);
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(3){
+    background-image: url(../img/Header_Live.svg);
+    background-size: 45%;
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(3):hover{
+    background-image: url(../img/Header_Live_Hover.svg);
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(4){
+    background-image: url(../img/Header_Friends.svg);
+    background-size: 85%;
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(4):hover{
+    background-image: url(../img/Header_Friends_Hover.svg);
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(5){
+    background-image: url(../img/Header_Epic.svg);
+}
+
+header #HeaderAlt #Header_Iconos a:nth-child(5):hover{
+    background-image: url(../img/Header_Epic_Hover.svg);
+}
+
+/*HEADER PART 2*/
+
+#part2{
+    float:right;
+    width: 360px;/*360px*/
+    height: 100%;
+}
+
+#part2 a:nth-child(1){
+    float:left;
+    width: 33px;
+    height: 100%;
+}
+
+#lupa{
+    width: 26px;
+    margin:0 auto;
+    margin-top:43%;
+    height: 24px;
+    background-image: url(../img/Header_Lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 69%;
+}
+
+#lupa:hover{
+    background-image: url(../img/Header_Lupa_Hover.svg);
+}
+
+#HeaderAlt_Tablet a:nth-child(4){
+    float:right;
+    position:relative;
+    width: 25px;
+    height: 24px;
+    margin-top: 7px;
+    z-index: 10;
+}
+
+#lupa_Tablet{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Header_Lupa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 69%;
+}
+
+#HeaderAlt_Tablet a:nth-child(4):hover #lupa_Tablet{
+    background-image: url(../img/Header_Lupa_Hover.svg);
+}
+
+#HeaderAlt_Tablet a:nth-child(3){
+    float:right;
+    position:relative;
+    width: 30px;
+    height: 24px;
+    margin-right: 16px;
+    margin-top: 7px;
+    z-index: 10;
+}
+
+#login_Tablet{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Header_Account.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.header_linia{
+    float:left;
+    margin-top: 4.5%;
+    width: 1px;
+    height: 24px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header_part2_lletres{
+    float:left;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top:4.2%;
+    padding:6px 4px 6px 8px;
+    letter-spacing: 1.01px;
+    color:black;
+    height: 24.5px;
+    text-decoration: none;
+}
+
+.header_part2_lletres:hover{
+    color:white;
+}
+
+#header_part2_ayuda{
+    width: 129px;
+}
+
+#header_part2_registrar{
+    width: 147px;
+}
+
+#header_part2_es{
+    float:left;
+    width: 46px;
+    letter-spacing: -1px;
+}
+
+#header_part2_es span:nth-child(1){
+    float:left;
+}
+
+#header_part2_es span:nth-child(2){
+    float:left;
+    font-size: 12px;
+    margin-left:35%;/*37%*/
+    margin-top:-15%;
+    transform:rotate(180deg);
+}
+
+#slideshow{
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#slideshow ul{
+/*    display:inline-block;*/
+    position:relative;
+    display:flex;
+    width: 300%;
+    animation: slide 27s infinite alternate linear;/*27s- CADA 20S FAIl*/
+}
+
+#slideshow li{
+    display:inline-block;
+/*    height: 100%;*/
+    width: 100%;
+/*    border:1px solid red;*/
+}
+
+.slydeshow_adalt_IMG{
+/*    display:inline-block;*/
+/*    position:relative;*/
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+.slydeshow_adalt_IMG:nth-child(2){
+    display:none;
+    position:absolute;
+}
+
+#slideshow_video{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+#slideshow_video video{
+    position:absolute;
+/*    height: 100%;*/
+    width: 100%;
+}
+
+@keyframes slide{
+    0% {margin-left:0;}
+    32%{margin-left: 0;}
+    
+    33%{margin-left: -100%;}
+    66%{margin-left: -100%;}
+    
+    67%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+
+.rellotje_i_data{
+    position:absolute;
+    top:238px;
+    margin-left:83px;
+}
+
+.slydeshow_adalt_rellotje{
+    position:absolute;
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.slydeshow_adalt_data{
+    margin-top:3px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 13px;
+    margin-left:35px;
+    letter-spacing: 1.4px;
+    color:white;
+}
+
+.slyde_adalt_nom_joc{
+    color:white;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 42px;
+    letter-spacing: -2px;
+}
+
+#slyde_rebajas{
+    margin-top:0px;
+    font-size: 36px;
+    letter-spacing: 1.2px;
+}
+
+#slyde_mas_info_2{
+    margin-left:0px;
+}
+
+.slydeshow_comprar_i_info{
+    margin-top:45px;
+}
+
+.slydeshow_comprar{
+    letter-spacing: 1px;
+    background-color: rgb(183, 28, 28);
+    display:inline-block;
+    padding: 21px 0px 21px 0px;
+    width: 192px;/*188px*/
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    border-radius: 3px;
+    border:2px solid rgb(183, 28, 28);
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    transition-duration: 0.3s;
+}
+
+.slydeshow_comprar:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(183, 28, 28);
+}
+
+.slydeshow_info{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(183, 28, 28);
+    letter-spacing: 1px;
+    margin-left:15px;
+    background-color: rgba(0, 0, 0, 0);
+    display:inline-block;
+    padding: 21px 0px 21px 0px;
+    width: 192px;/*188px*/
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    border-radius: 3px;
+    border:2px solid white;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    transition-duration: 0.3s;
+}
+
+.slydeshow_info:hover{
+    background-color: white;
+    color:#222c32 ;
+}
+
+.slyde_adalt_plataformes{
+    margin-left:10px;
+    margin-top:45px;
+}
+
+.slyde_adalt_plataformes img:nth-child(1),.slyde_adalt_plataformes img:nth-child(2){
+    margin-right: 20px;
+}
+
+.slyde_adalt_plataformes img{
+    width: 100px;
+    height: 35px;
+}
+
+#slyde_pc{
+    width: 52px;
+}
+
+#slyde_pc2{
+    width: 52px;
+}
+.slydeshow_background_blue{
+    position:absolute;
+    display:none;
+    top:35%;
+    width: 100%;
+    height: 65%;
+    background-color: rgb(30, 36, 77);
+}
+
+#iniciar_sesion_i_registrarse{
+    top:80px;
+    right:73px;
+    position:absolute;
+    width: 605px;/*598*/
+    height: 41px;
+}
+
+#calendario a:nth-child(1){
+    clear:both;
+    margin-top:6px;
+    padding-right: 10px;
+    float:left;
+    text-decoration: none;
+}
+
+#calendario a:nth-child(2){
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    float:left;
+    margin-top:8px;
+    color:white;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#calendario:hover a:nth-child(2){
+    color:#ffad00;
+}
+
+#iniciar_sesion{
+    text-decoration: none;
+    float:left;
+    margin-left: 45px;
+    border-radius:20px;
+    background-color: rgb(255, 173, 0);
+    border:2px solid rgb(255, 173, 0);
+    transition-duration: 0.3s;
+}
+
+#iniciar_sesion:hover{
+    background-color:rgba(0,0,0,0);
+}
+
+#iniciar_sesion:hover a{
+    color:#ffad00;
+}
+
+#iniciar_sesion a{
+    transition-duration: 0.3s;
+    display:inline-block;
+    padding:10px 40px 10px 40px;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    font-weight: 400;
+    color:black;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+    text-decoration: none;
+}
+
+#registrarse{
+    text-decoration: none;
+    margin-left:10px;
+    float:left;
+    border-radius:20px;
+    background-color: white;
+    border:2px solid white;
+    transition-duration: 0.3s;
+}
+
+#registrarse:hover{
+    background-color:rgba(0,0,0,0);
+}
+
+#registrarse:hover a{
+    color:white;
+}
+
+#registrarse a{
+    display:inline-block;
+    transition-duration: 0.3s;
+    padding:10px 40px 10px 40px;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    font-weight: 400;
+    color:black;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+    text-decoration: none;
+}
+
+#proximamente{
+    display:block;
+}
+
+#proximamente h1{
+    text-align: center;
+    font-size:48px;
+    margin:30px 0px 30px 0px;
+    font-weight: 400;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#slideshow_upcoming{
+    overflow:hidden;
+    width: 100%;
+}
+
+#slideshow_upcoming ul{
+    overflow:hidden;
+    height: 100%;
+    width: 200%;
+    display:flex;
+    animation: slide_upcoming 30s infinite alternate linear;/*30s*/
+}
+
+#slideshow_upcoming li{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes slide_upcoming{ 
+    0% {margin-left:0;}
+    48%{margin-left: 0;}
+    
+    50%{margin-left: -100%;}
+    100%{margin-left: -100%;}
+}
+
+.upcoming_big{
+    display:inline-block;
+    width: 100%;
+    margin-bottom:6.4%;
+}
+
+.upcoming_div{
+    background-color: black;
+    float:left;
+    position:relative;
+    border-radius: 3px;
+    width: 29.65%;
+}
+
+.upcoming_div img{
+    transition-duration:0.3s;
+}
+
+.upcoming_div:hover img{
+    transform:scale(1.4);
+}
+
+.upcoming_div:hover .upcoming_img{
+    border: 28px solid black;
+}
+
+.upcoming_img{
+    position:absolute;
+    transition-duration:0.3s;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 100%;
+    overflow: hidden;
+    border:1px;
+    border-color: transparent;
+}
+#upcoming_div1{
+    margin-left:4.35%;
+}
+
+#upcoming_div2{
+    margin-left:1.2%; 
+}
+
+#upcoming_div3{
+    margin-left:1.2%;
+}
+
+#upcoming_div4{
+    margin-left:4.35%;
+}
+
+#upcoming_div5{
+    margin-left:1.2%;
+}
+
+#upcoming_div6{
+    margin-left:1.2%;
+}
+
+.upcoming_div p{ 
+    color:rgb(255, 111, 0);
+    font-size: 13px;
+    margin-top:87%;/*10%*/
+    font-weight: 900;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    text-align: center;
+    letter-spacing: 1.01px;
+    margin-bottom:32%;
+}
+
+.upcoming_div h2{
+    width: 80%;
+    position:absolute;
+    top:74.7%;
+    left:10.5%;
+    text-align: center;
+    display:block;
+    font-weight: 800;
+    color:white;
+    font-size: 1.25em;/*24px*/
+    margin-bottom: 20.5%;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#contacto{
+    margin-top:0%;
+    display:block;
+    width: 91.15%;/*91.15%*/
+    margin:0 auto;
+    text-align: center;
+    background-color: #ffad00;
+    background-image: url(../img/Keep_inTouch_1.svg),url(../img/Keep_inTouch_2.svg);
+    background-size: 72%,55%;
+    background-position: -66% 46.5%,137% 37%;
+    background-repeat: no-repeat;
+}
+
+#contacto h2{
+    display:inline-block;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+    color:white;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top:3%;
+    margin-bottom: 1.6%;
+}
+
+#contacto p{
+    color:white;
+/*    width: 24.8%;*/
+    margin:0 auto;
+    display:block;
+    font-size: 16px;
+    letter-spacing: 2.35px;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+}
+
+#contacto p:nth-child(2){
+    margin-bottom: 1%;
+}
+
+#contacto p:nth-child(3){
+    margin-bottom: 1.6%;
+}
+
+#unete{
+    background-color: #1e244d;
+    border:2px solid #1e244d;
+    display:inline-block;
+    width: 17%;
+    height: 10%;
+    border-radius: 22px;
+    margin-bottom: 2%;
+    transition-duration: 0.3s;
+}
+
+#unete:hover{
+    background-color: rgba(0,0,0,0);
+}
+
+#unete:hover a{
+    color:#1e244d;
+}
+
+#unete a{
+    font-family: 'ITCAvantGardeStd-Md',sans-serif;
+    font-size:0.8em;/*15px*/
+    transition-duration: 0.3s;
+    padding-top:4%;
+    padding-bottom:4%;
+    display:inline-block;
+    width: 100%;
+    color:white;
+    height: 100%;
+    text-decoration: none;
+}
+
+#registrar_juego{
+    display:block;
+    margin-top:2.5%;
+    background-color: #00897b;
+    text-align: center;
+    border:2px solid #00897b;
+    background-image: url(../img/Register_Game_Fondo);
+    background-position: top center;
+    background-size: cover;
+    position:relative;
+}
+
+#fondo_heart{
+    position:absolute;
+    width: 70%;
+    height: 70%;
+    bottom:27%;
+    left:15%;
+    background-size: 49.7%;
+    background-position: center;
+    background-image: url(../img/Register_Game_Fondo_heart.png);
+    background-repeat: no-repeat;
+}
+
+#fondo_pj{
+    position:absolute;
+    width: 70%;
+    height: 70%;
+    top:3%;
+    left:12%;
+    background-size: 49%;
+    background-image: url(../img/Register_Game_Fondo_PJ.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#registrar_a{
+    text-decoration: none;
+    color:white;
+}
+
+#registrar_juego>p{
+    display:inline-block;
+    color:#fff;
+    opacity: 0.8;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    font-size: 14px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#registrar_juego>p:nth-child(4){
+    margin-top:0.2%;
+}
+
+#registrar_juego h2{
+    padding-top:34.8%;
+    letter-spacing: 1.8px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+
+#registra_juego_boton{
+    margin:0 auto;
+    border:2px solid white;
+    z-index: 1;
+    margin-top: 1.45%;
+    background-color: white;
+    width: 13.1%;
+    min-width: 220px;
+    border-radius: 22px;
+}
+
+#registra_heart{
+    clear: both;
+    margin-top: 5%;
+    margin-left: 7%;
+    float:left;
+    display:inline-block;
+    width: 20px;
+    height: 18px;
+    background-image: url(../img/Register_Game_Fondo_heart.png);
+    background-size: 100%;
+}
+
+#registra_juego_boton p{
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    display:inline-block;
+    margin-left:-9%;
+    letter-spacing: -0.5px;
+    font-size: 0.875em;
+    color:black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transition-duration: 0.3s;
+}
+
+#registra_juego_boton{
+    margin-bottom: 5%;
+    transition-duration: 0.3s;
+}
+
+#registra_juego_boton:hover{
+    background-color: #00897b;
+}
+
+#registra_juego_boton:hover p{
+    color:white;
+}
+
+#registra_juego_boton #registra_heart{
+    transition-duration: 0.3s;
+}
+
+#registra_juego_boton:hover #registra_heart{
+    background-image: url(../img/heart_white.svg);
+}
+
+#Mas_Acerca_Friends{
+    display:block;
+    float:left;
+    width: 100%;
+    margin-top:1.1%;
+}
+
+.mas_acerca{
+    float:left;
+    width: 33.333%;
+    position:relative;
+    text-align: center;
+}
+
+.mas_acerca img{
+/*    width: 28.5%;*/
+    width: 178px;
+    height: 246px;
+    margin-left:-2.8%;
+}
+
+.mas_acerca:nth-child(2) img{
+/*    width: 18.67%;*/
+    width: 123px;
+}
+
+.mas_acerca:nth-child(3) img{
+/*    width: 29.24%;*/
+    width: 215px;
+    height: 246px;
+}
+
+.mas_acerca h2{
+    font-size: 32px;
+    color:#ffad00;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-left: -3%;
+    margin-top: 15px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+.mas_acerca p{
+    color:rgba(0, 0, 0, 0.6);
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    line-height: 25.1167px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -3%;
+}
+
+.ultima_p_acerca{
+    margin-bottom: 5%;
+}
+
+#ocult,#ocult2{
+    color:white;
+}
+
+.fondo_groc{
+    position:absolute;
+    width: 192px;
+    height: 192px;
+    border-radius: 999px;
+    background-color: #ffad00;
+    left:0;
+    right:0;
+    top:6%;
+    bottom:0;
+    margin:0 auto;
+    z-index: -1;
+}
+
+#fondo_groc2{
+/*    margin-left: 34.9%;*/
+}
+
+#fondo_groc3{
+/*    margin-left: 36.5%;*/
+}
+
+#mas_acerca_friends_boton{
+    clear:both;
+    text-align: center;
+}
+
+#mas_acerca_friends_boton_2{
+    display:inline-block;
+    background-color: rgb(0, 137, 123);
+    border:2px solid rgb(0, 137, 123);
+    width: 14.8%;
+    margin-top: 4.2%;
+    border:2px solid #00897b;
+    border-radius: 20px;
+    min-width: 280px;
+    position:relative;
+    transition-duration: 0.3s;
+}
+
+
+
+#mas_acerca_friends_boton_2:hover{
+    background-color: white;
+    
+}
+
+#mas_acerca_friends_boton_2:hover a:nth-child(2){
+    color:rgb(0, 137, 123);
+}
+
+#mas_acerca_friends_boton_2:hover #mas_acerca_heart{
+    background-image: url(../img/Register_Game_Fondo_heart.png);
+}
+
+#mas_acerca_friends_boton_2 a:nth-child(2){
+    display:inline-block;
+    letter-spacing: 1.01px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    color:white;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+#mas_acerca_heart{
+    position:absolute;
+    width: 16%;
+    height: 64%;
+    top:20%;
+    background-size: 49.7%;
+    background-position: center;
+    background-image: url(../img/heart_white.svg);
+    background-repeat: no-repeat;
+    transition-duration: 0.3s;
+}
+
+#curated_goods{
+    display:inline-block;
+    width: 100%;
+/*    margin-top: 40px;*/
+    margin-top: 2.93%;
+    background-color: rgb(210, 9, 21);
+    border:1px solid red;
+/*    padding:30px 83px 16px 83px;*/
+/*    padding:2% 5% 2% 5%;*/
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#curated_goods_centrar{
+    background-color: rgb(210, 9, 21);
+/*    display:inline-block;*/
+    width: 91.15%;
+    margin:0px auto 20px auto;
+}
+
+#curated_goods_centrar a{
+    display:inline-block;
+    min-height: 320px;
+    background-color: white;
+    width: 18.8%;/*18.3%*/
+    border-radius: 3px;
+    position:relative;
+    vertical-align: top;
+}
+
+#curated_goods h2{
+    display:inline-block;
+    font-weight: 400;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2.5em;
+    color:white;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#curated_goods_centrar a:nth-child(1){
+    margin-right: 0.6%;
+}
+
+#curated_goods_centrar a:nth-child(5){
+    margin-left: 0.6%;
+}
+
+#curated_goods_centrar a:nth-child(2),#curated_goods_centrar a:nth-child(3),#curated_goods_centrar a:nth-child(4){
+    margin:0% 0.6% 0% 0.6%;
+}
+
+#curated_articles_1{
+    margin-left: 0px;
+}
+
+#curated_articles_4{
+    vertical-align:top;
+}
+
+#curated_articles_5{
+    margin-right: 0px;
+}
+
+.curated_articles h3{
+    position:absolute;
+    font-size: 1em;
+    font-weight: 400;
+    margin:0 auto;
+    top:72%;
+    margin-left: 11%;
+    color:#444;
+    width: 78%;
+    letter-spacing: -0.5px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+.curated_articles p{
+    position:absolute;
+    width: 78.1%;
+    top:91%;
+    left:11%;
+    color:rgb(210, 9, 21);
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-bottom: 4%;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+.curated_aticles_centrar_img{
+    margin-bottom: 46%;
+    text-align: center;
+    margin-top:9px;
+} 
+
+.curated_aticles_centrar_img{
+    width: 100%;
+}
+
+.curated_articles img{
+    width: 70.38%;
+}
+
+#curated_h3_5{
+/*    margin-bottom: 13.67%;*/
+    margin-right: 0px;
+}
+
+#loMasNuevo{
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;    
+}
+
+#slideshow_Mas_Nuevo{
+    margin:0 auto;
+    width: 91.15%;
+    overflow:hidden;
+}
+
+#slideshow_Mas_Nuevo a:hover{
+    background-color: black;
+    background-color: #303f9f;
+}
+
+#slideshow_Mas_Nuevo a:hover .zoom_mas_nuevo{
+    border-left:28px solid #303f9f;
+    border-right:28px solid #303f9f;
+    border-top:28px solid #303f9f;
+}
+
+#slideshow_Mas_Nuevo a:hover .Mas_Nuevo_Titulo{
+    color:#ffad00;
+}
+
+#slideshow_Mas_Nuevo a:hover #Mas_nuevo_p_Buida{
+    color:#303f9f;
+}
+
+#slideshow_Mas_Nuevo a:hover h3{
+    color:white;
+}
+
+#slideshow_Mas_Nuevo a:hover .Mas_Nuevo_Fecha{
+    color:black;
+}
+
+#loMasNuevo h2{
+    margin-bottom: 48px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+#slideshow_Mas_Nuevo ul{
+    list-style: none;
+}
+
+#slideshow_Mas_Nuevo a{
+    display:inline-block;
+    width: 32.4%;/*32.5%*/
+    border-radius: 3px;
+}
+
+#slideshow_Mas_Nuevo a:nth-child(2){
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.mas_nuevo_div{
+    display:inline-block;
+    width: 100%;
+    border-radius: 3px;
+    position:relative;
+    border:1px solid rgb(224, 224, 224);
+}
+
+.zoom_mas_nuevo{
+    transition-duration: 0.3s;
+    position:relative;
+    float:left;
+    width: 100%;
+}
+
+.mas_nuevo_zoom_img1{
+    width: 100%;
+    overflow: hidden;
+}
+
+.play_button{
+    position:absolute;
+    top:38%;
+    margin-left: 43%;
+    width: 74px;
+    height: 74px;
+}
+
+.zoom_mas_nuevo img{
+    display:inline-block;
+    width: 100%;
+}
+
+.Mas_Nuevo_Titulo{
+    width: 100%;
+    margin-top: 30px;
+    display:inline-block;
+    color:#303f9f;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 62%;
+}
+
+.mas_nuevo_div h3{
+    text-align: center;
+    display:inline-block;
+    height: 126px;
+    width: 100%;
+    color:#444;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    margin-bottom: 8px;
+}
+
+#Mas_nuevo_p_Buida{
+    color:white;
+}
+
+.Mas_Nuevo_Fecha{
+    color:black;
+    letter-spacing: 0.3px;
+    text-align: right;
+    opacity: 0.5;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#slideshow_Mas_Nuevo ul{
+    position:relative;
+    max-height: 100%;
+    display:flex;
+    overflow:hidden;
+    width: 200%;
+    animation: slide_upcoming 30s infinite alternate linear;
+}
+
+#slideshow_Mas_Nuevo li{
+    display:inline-block;
+    width: 100%;
+}
+
+.zoom_mas_nuevo{
+    overflow: hidden;
+    position:absolute;
+}
+
+.mas_nuevo_div .escalar_img_mas_nuevo{
+    transition-duration: 0.3s;
+}
+
+.mas_nuevo_div:hover .escalar_img_mas_nuevo{
+    transform:scale(1.4);
+}
+
+.zoom_mas_nuevo .play_button .button_scale{
+    transition-duration: 0.3s;
+}
+
+.zoom_mas_nuevo:hover .play_button .button_scale{
+    transform:scale(1.2);
+}
+
+#Miles_Juegos{
+    width: 100%;
+    margin-top: 7%;
+}
+
+#Miles_Juegos_Centrar{
+    width: 91.15%;
+    margin:0 auto;
+    height: 54px;
+    margin-bottom: 70px;
+}
+
+#Miles_Juegos_Centrar h2{
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 24px;
+    display:inline-block;
+    font-weight: 400;
+    vertical-align:top;
+    margin-left: 140px;
+}
+
+#Miles_Juegos_Button{
+    display:inline-block;
+    position:relative;
+}
+
+#Miles_Juegos_IMG1{
+    width: 205px;
+    height: 54px;
+    display:inline-block;
+    max-width: 45%;
+    background-image: url(../img/Miles_Juegos_News.svg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Miles_Juegos_Centrar a{
+    margin-top: 6px;
+    width: 247.2px;
+    height: 38.9px;
+    background-color: rgb(48, 63, 159);
+    float:right;
+    border-radius: 20px;
+    border:2px solid rgb(48, 63, 159);
+}
+
+#Miles_Juegos_IMG2{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    margin-top:6px;
+    background-image: url(../img/Miles_Juegos_News_icon.svg);
+    margin-left: 40px;
+}
+
+#Miles_Juegos_Button p{
+    margin-left: 70px;
+    margin-top: 8px;
+    display:inline-block;
+    color:white;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#Miles_Juegos_Centrar a #Miles_Juegos_Button p{
+    transition-duration: 0.3s;
+}
+
+#Miles_Juegos_Centrar a:hover #Miles_Juegos_Button p{
+    color:rgb(48, 63, 159);
+}
+
+#Miles_Juegos_Centrar a #Miles_Juegos_IMG2{
+    transition-duration: 0.3s;
+}
+
+#Miles_Juegos_Centrar a:hover #Miles_Juegos_IMG2{
+    background-image: url(../img/Miles_Juegos_News_icon_Hover.svg);
+}
+
+#Miles_Juegos_Centrar a{
+    transition-duration: 0.3s;
+}
+
+#Miles_Juegos_Centrar a:hover{
+    background-color: white;
+}
+
+#Universos_Destacados{
+    border:1px solid black;
+    width: 100%;
+    background-image: url(../img/Featured_Universes_9.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-color: rgb(30, 36, 77);
+}
+
+#Universos_Destacados_Centrar{
+    width: 91.15%;
+    margin:0 auto;
+}
+
+#Universos_Destacados_Centrar h2{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    margin-top: 33px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    color:white;
+}
+
+.Universos_Destacados_Div a{
+    width: 100%;
+    display:inline-block;
+    height: 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    position:relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.Universos_Destacados_Div:nth-child(3){
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+}
+
+#Universos_Destacados_a1{
+    transition-duration: 0.3s;
+}
+
+#Universos_Destacados_a1{
+    background-image: url(../img/Featured_Universes_Goku.jpg);
+    background-size: auto 100%;
+}
+
+#Universos_Destacados_a2{
+    background-image: url(../img/Featured_Universes_Jin.jpg);
+    background-size: auto 100%;
+}
+
+#Universos_Destacados_a2{
+    transition-duration: 0.3s;
+}
+
+#Universos_Destacados_a3{
+    background-image: url(../img/Featured_Universes_Skull);
+    background-size: auto 100%;
+}
+
+#Universos_Destacados_a3{
+    transition-duration: 0.3s;
+}
+
+.Universos_Destacados_Div p{
+    position:absolute;
+    color:white;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    bottom:58px;
+    z-index: 1;
+}
+
+.Universos_Destacados_Degradat{
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    position:absolute;
+    width: 100%;
+    height: 50%;
+    bottom:0px;
+}
+
+#Universos_Destacados_a1:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+
+#Universos_Destacados_a2:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+
+#Universos_Destacados_a3:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+
+.Universos_Destacados_Div{
+    overflow: hidden;
+    height: 468px;
+    width: 32.18%;/*31.39%*/
+    display:inline-block;
+    margin-bottom: 64px;
+}
+
+#Universos_Destacados_Centrar_Button{
+    text-align: center;
+}
+
+#Universos_Destacados_Button{
+    display:inline-block;
+    padding:25px 60px;
+    border:2px solid #ffad00;
+    background-color: #ffad00;
+    margin-bottom: 16px;
+    color:white;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    font-weight: 400;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+#Universos_Destacados_Button:hover{
+    background-color: rgba(0,0,0,0);
+    color:#ffad00;
+}
+
+#Universos_Destacados_Div_Final_1{
+    clear:both;
+    float:left;
+}
+
+#Universos_Destacados_Div_Final_1 a img{
+    width: 60px;
+    height: 80px;
+}
+
+#Universos_Destacados_Div_Final_2{
+    float:left;
+    margin-top: 45px;
+    padding-left: 9px;
+}
+
+#Universos_Destacados_Div_Final_2 a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    margin-left: 25px;
+}
+
+#Universos_Destacados_Div_Final_2 a:hover{
+    color: rgb(255, 173, 0);
+}
+
+#Universos_Destacados_Div_Final_3{
+    float:right;
+    margin-top: 45px;
+}
+#Universos_Destacados_Div_Final_3 a{
+    transition-duration: 0.3s;
+}
+
+#Universos_Destacados_Div_Final_3 a:hover{
+    background-color: rgb(255, 173, 0);
+}
+
+#Universos_Destacados_Div_Final_3 a img{
+    width: 22px;
+    height: auto;
+    margin-top: 6px;
+}
+
+#Universos_Destacados_Div_Final_3 a{
+    margin-left: 16px;
+    display:inline-block;
+    text-align: center;
+    background-color: rgb(52, 58, 95);
+    border-radius: 17px;
+    width: 34px;
+    height: 34px;
+}
+
+#Universos_Destacados_Letra_Pequena{
+    clear:both;
+}
+
+#Universos_Destacados_Letra_Pequena p{
+    display:inline-block;
+    font-family: "ITCAvantGardeStd-Bk", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    width: 225px;
+    margin-right: 80px;
+    margin-top: 39px;
+    color:white;
+    margin-bottom: 14px;
+}
+
+#Universos_Destacados_Letra_Pequena p:nth-child(3){
+    margin-right: 0px;
+    width: 125px;
+}
+
+#Universos_Destacados_Registrar{
+    width: 100%;
+}
+
+#Universos_Destacados_Registrar a:hover{
+    color:#ffad00;
+}
+
+#Universos_Destacados_Registrar a{
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    color:white;
+    display:inline-block;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+.Universos_Destacados_Registrar_flecha{
+    display:inline-block;
+    background-image: url(../img/Footer_Flecha.svg);
+    width: 11px;
+    height: 8px;
+    transform: rotate(-90deg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Universos_Destacados_Registrar a:nth-child(1){
+    width: 305px;
+}
+
+#Universos_Destacados_Registrar a:nth-child(2){
+    width: 305px;
+}
+
+#Universos_Destacados_Registrar a:nth-child(3){
+    width: 82px;
+    height: 32px;
+    background-image: url(../img/Header_Store.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    vertical-align: bottom;
+}
+
+#Universos_Destacados_Registrar a:nth-child(3):hover{
+    background-image: url(../img/footer_Store_Hover.svg);
+}
+
+#Universos_Destacados_Registrar a:nth-child(4){
+    width: 90px;
+    height: 32px;
+    margin-right: 20px;
+    background-image: url(../img/footer_News.svg);
+    background-size: 125%;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+#Universos_Destacados_Registrar a:nth-child(4):hover{
+    background-image: url(../img/Footer_News_Hover.svg);
+}
+
+#Universos_Destacados_Registrar a:nth-child(5){
+    width: 100px;
+    height: 32px;
+    margin-right: 20px;
+    background-image: url(../img/Footer_Friends.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+#Universos_Destacados_Registrar a:nth-child(5):hover{
+    background-image: url(../img/Footer_Friends_Hover.svg);
+}
+
+footer{
+    background-color: rgb(255, 173, 0);
+}
+
+#footer_centrar{
+    width: 91.15%;
+    margin:0 auto;
+}
+
+#footer_centrar p{
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    font-size: 13px;
+    color:white;
+    font-weight: 700;
+    margin:16px 0px;
+    display:inline-block;
+}
+
+#footer_centrar p:nth-child(2){
+    display:none;
+}
+
+#footer_centrar p:nth-child(3){
+    display:none;
+}
+
+#footer_centrar a{
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    float:right;
+    letter-spacing: -0.4px;
+    font-size: 13px;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    margin:16px 0px 16px 20px;
+}
+
+/*----------------------------------------------------------------*/
+/*---------------------------TABLET-------------------------------*/
+/*----------------------------------------------------------------*/
+
+/*-----------------------*/
+/*---TABLET SLYDESHOWS proximamente---*/
+/*-----------------------*/
+#proximamente_Tablet{
+    display:none;
+}
+
+#proximamente_Tablet h1{
+    text-align: center;
+    font-size: 26px;
+    margin:30px 0px 30px 0px;
+    font-weight: 400;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#upcoming_div1_Tablet{
+    margin-left:2.25%; 
+}
+
+#upcoming_div2_Tablet{
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+
+#upcoming_div3_Tablet{
+    margin-left: 2.25%;
+}
+
+#upcoming_div4_Tablet{
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+
+#upcoming_div5_Tablet{
+    margin-left: 2.25%;
+}
+
+#upcoming_div6_Tablet{
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+
+#slyde_adalt_img3_Tablet{
+    background-image: url(../img/Slyde_Adalt_3_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 0%;
+    height: 100%;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:66.666%;
+    width: 33.333%;
+    margin-bottom: -20%;
+}
+
+#slideshow_upcoming_Tablet{
+    overflow:hidden;
+    width: 100%;
+}
+
+#slideshow_upcoming_Tablet ul{
+    overflow:hidden;
+    height: 100%;
+    width: 300%;
+    display:flex;
+    animation: slide_upcoming_Tablet 30s infinite alternate linear;/*30s*/
+}
+
+#slideshow_upcoming_Tablet li{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes slide_upcoming_Tablet{ 
+    0% {margin-left:0;}
+    32%{margin-left: 0;}
+    
+    33%{margin-left: -100%;}
+    66%{margin-left: -100%;}
+    
+    67%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+
+/*-----------------------*/
+/*---TABLET SLYDESHOWS loMasNuevo---*/
+/*-----------------------*/
+#loMasNuevo_Tablet{
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 33px;
+    display:none;
+}
+#loMasNuevo_Tablet h2{
+    margin-bottom: 48px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:hover .zoom_mas_nuevo{
+    border-left:15px solid #303f9f;
+    border-right:15px solid #303f9f;
+    border-top:15px solid #303f9f;
+}
+#slideshow_Mas_Nuevo_Tablet{
+    margin:0 auto;
+    width: 100%;
+    overflow:hidden;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:hover{
+    background-color: #303f9f;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:hover .Mas_Nuevo_Titulo{
+    color:#ffad00;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:hover #Mas_nuevo_p_Buida_Mobil{
+    color:#303f9f;
+}
+
+#Mas_nuevo_p_Buida_Tablet{
+    color:white;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:hover h3{
+    color:white;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:hover .Mas_Nuevo_Fecha{
+    color:black;
+}
+#slideshow_Mas_Nuevo_Tablet ul{
+    list-style: none;
+    position:relative;
+    max-height: 100%;
+    display:flex;
+    overflow:hidden;
+    width: 300%;
+    animation: slide_upcoming_Tablet 30s infinite alternate linear;
+}
+
+#slideshow_Mas_Nuevo_Tablet a{
+    display:inline-block;
+    width: 46.36%;
+    border-radius: 3px;
+}
+
+#slideshow_Mas_Nuevo_Tablet li{
+    display:inline-block;
+    width: 100%;
+}
+
+#slideshow_Mas_Nuevo_Tablet h2{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:nth-child(1){
+    margin-left:2.25%; 
+}
+
+#slideshow_Mas_Nuevo_Tablet a:nth-child(2){
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:nth-child(3){
+    margin-left: 2.25%;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:nth-child(4){
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:nth-child(5){
+    margin-left: 2.25%;
+}
+
+#slideshow_Mas_Nuevo_Tablet a:nth-child(6){
+    margin-left: 2.25%;
+    margin-right: 2.25%;
+}
+#loMasNuevo_Tablet .Mas_Nuevo_Titulo{
+    margin-bottom: 13px;
+}
+#loMasNuevo_Tablet h3{
+    margin-bottom: 0%;
+}
+
+/*-----------------------*/
+/*---TABLET SLYDESHOWS Universos Destacados---*/
+/*-----------------------*/
+#Universos_Destacados_a1_Tablet{
+    background-image: url(../img/Featured_Universes_Goku.jpg);
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a1_Tablet:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+#Universos_Destacados_a2_Tablet{
+    background-image: url(../img/Featured_Universes_Jin.jpg);
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a2_Tablet:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+#Universos_Destacados_a2_Tablet_2{
+    background-image: url(../img/Featured_Universes_Jin.jpg);
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a2_Tablet_2:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+#Universos_Destacados_a3_Tablet{
+    background-image: url(../img/Featured_Universes_Skull);
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a3_Tablet:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+.Universos_Destacados_Div:nth-child(6){
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#slideshow_Universos_Destacados{
+    display:none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#slideshow_Universos_Destacados ul{
+    width: 200%;
+    height: 100%;
+    display:flex;
+    animation: slide_upcoming 15s infinite alternate linear;
+}
+#slideshow_Universos_Destacados li{
+    width: 100%;
+    height: 100%;
+}
+#slideshow_Universos_Destacados .Universos_Destacados_Div{
+    width: 46.5%;
+}
+#slideshow_Universos_Destacados .Universos_Destacados_Div:nth-child(1){
+    margin-right: 2.25%;
+    margin-left:1.25%;
+}
+#slideshow_Universos_Destacados .Universos_Destacados_Div:nth-child(2){
+    margin-left: 2.25%;
+}
+
+/*---------------------------------------------------------------*/
+/*--------------------------MOBIL--------------------------------*/
+/*---------------------------------------------------------------*/
+
+/*-----------------------*/
+/*---MOBIL SLYDESHOWS proximamente---*/
+/*-----------------------*/
+
+#proximamente_Mobil{
+    display:none;
+    width: 100%;
+}
+
+#proximamente_Mobil h1{
+    text-align: center;
+    font-size: 26px;
+    margin:30px 0px 30px 0px;
+    font-weight: 400;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+}
+
+#slideshow_upcoming_Mobil{
+    overflow:hidden;
+    width: 88%;
+    margin:0 auto;
+    display:block;
+}
+
+#slideshow_upcoming_Mobil ul{
+    overflow:hidden;
+    height: 100%;
+    width: 600%;
+    display:flex;
+    animation: slide_upcoming_Mobil 45s infinite alternate linear;
+}
+
+#slideshow_upcoming_Mobil li{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes slide_upcoming_Mobil{ 
+    0% {margin-left:0;}
+    16%{margin-left: 0;}
+    
+    17%{margin-left: -100%;}
+    33%{margin-left: -100%;}
+    
+    34%{margin-left: -200%;}
+    50%{margin-left: -200%;}
+    
+    51%{margin-left: -300%;}
+    67%{margin-left: -300%;}
+    
+    68%{margin-left: -400%;}
+    84%{margin-left: -400%;}
+    
+    85%{margin-left: -500%;}
+    100%{margin-left: -500%;}
+}
+
+/*-----------------------*/
+/*---MOBIL SLYDESHOWS loMasNuevo---*/
+/*-----------------------*/
+#loMasNuevo_Mobil{
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 33px;
+    display:none;
+}
+#loMasNuevo_Mobil h2{
+    margin-bottom: 48px;
+    font-family: "ITCAvantGardeStd-Md", sans-serif;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+#slideshow_Mas_Nuevo_Mobil a:hover .zoom_mas_nuevo{
+    border-left:20px solid #303f9f;
+    border-right:20px solid #303f9f;
+    border-top:20px solid #303f9f;
+}
+#slideshow_Mas_Nuevo_Mobil{
+    margin:0 auto;
+    width: 88%;
+    overflow:hidden;
+}
+
+#slideshow_Mas_Nuevo_Mobil a:hover{
+    background-color: #303f9f;
+}
+
+#slideshow_Mas_Nuevo_Mobil a:hover .Mas_Nuevo_Titulo{
+    color:#ffad00;
+}
+
+#slideshow_Mas_Nuevo_Mobil a:hover #Mas_nuevo_p_Buida_Mobil{
+    color:#303f9f;
+}
+
+#Mas_nuevo_p_Buida_Mobil{
+    color:white;
+}
+
+#slideshow_Mas_Nuevo_Mobil a:hover h3{
+    color:white;
+}
+
+#slideshow_Mas_Nuevo_Mobil a:hover .Mas_Nuevo_Fecha{
+    color:black;
+}
+#slideshow_Mas_Nuevo_Mobil ul{
+    list-style: none;
+    position:relative;
+    max-height: 100%;
+    display:flex;
+    overflow:hidden;
+    width: 600%;
+    animation: slide_upcoming_Mobil 45s infinite alternate linear;
+}
+
+#slideshow_Mas_Nuevo_Mobil a{
+    display:inline-block;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#slideshow_Mas_Nuevo_Mobil li{
+    display:inline-block;
+    width: 100%;
+}
+
+#slideshow_Mas_Nuevo_Mobil h2{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+/*-------------------------------------------*/
+/*---MOBIL SLYDESHOWS Universos Destacados---*/
+/*-------------------------------------------*/
+#Universos_Destacados_a1_Mobil{
+    background-image: url(../img/Featured_Universes_Goku.jpg);
+    background-size: auto 100%;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a1_Mobil:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+#Universos_Destacados_a2_Mobil{
+    background-image: url(../img/Featured_Universes_Jin.jpg);
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a2_Mobil:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+#Universos_Destacados_a3_Mobil{
+    background-image: url(../img/Featured_Universes_Skull);
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+#Universos_Destacados_a3_Mobil:hover{
+    transition:background 0.3s;
+    background-size: auto 110%;
+}
+#slideshow_Universos_Destacados_Mobil{
+    display:none;
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    width: 97%;
+}
+#slideshow_Universos_Destacados_Mobil ul{
+    width: 300%;
+    height: 100%;
+    display:flex;
+    animation: slide_upcoming_Tablet 30s infinite alternate linear;
+}
+#slideshow_Universos_Destacados_Mobil li{
+    width: 100%;
+    height: 100%;
+}
+
+/*1459: Baixe 1 Curated goods*/
+@media only screen and (max-width: 1459px){
+    #curated_goods_centrar a:nth-child(1){
+        margin-right: 0.5%;
+    }
+
+    #curated_goods_centrar a:nth-child(5){
+        margin-left: 0.5%;
+    }
+
+    #curated_goods_centrar a:nth-child(2),#curated_goods_centrar a:nth-child(3),#curated_goods_centrar a:nth-child(4){
+        margin:0% 0.5% 0% 0.5%;
+    }
+
+}
+
+/*1390: IMG de registrar un juego*/
+@media only screen and (max-width: 1390px){
+    #fondo_pj{
+        top:2%;
+    }
+    #fondo_heart{
+        bottom:29%;
+    }
+}
+
+/*1260: Baixen iconos de footer, redes sociales */
+@media only screen and (max-width: 1260px){
+    #Universos_Destacados_Registrar a:nth-child(1){
+        width: 250px;
+    }
+
+    #Universos_Destacados_Registrar a:nth-child(2){
+        width: 250px;
+    }
+    
+    #Universos_Destacados_Letra_Pequena p{
+        width: 250px;
+        margin-right: 0px;
+    }
+}
+
+/*1219: BOTO UNETE I BORDERS ZOOM*/
+@media only screen and (max-width: 1219px){
+    #unete{
+        width: 20%;
+    }
+    .upcoming_div .upcoming_img{
+        transition-duration:0.3s;
+    }
+    .upcoming_div:hover .upcoming_img{
+        border: 15px solid black;
+    }
+    #slideshow_Mas_Nuevo a:hover .zoom_mas_nuevo{
+        border-left:15px solid #303f9f;
+        border-right:15px solid #303f9f;
+        border-top:15px solid #303f9f;
+    }
+}
+
+/*1215: Curated article baixe*/
+@media only screen and (max-width: 1215px){
+    .curated_aticles_centrar_img{
+        margin-bottom: 60%;
+    } 
+    .curated_articles h3{
+       top:67%;
+    }
+    #iniciar_sesion_i_registrarse{
+        top:80px;
+        right:40px;
+    }
+}
+
+/*1161: Baixe part 2 header*/
+@media only screen and (max-width: 1161px){
+    #HeaderAlt_Tablet{
+        display:block;
+    }
+    #HeaderSticky{
+        display:none;
+    }
+}
+
+/*1111: Baixe lletra de curated goods*/
+@media only screen and (max-width: 1111px){
+    .curated_aticles_centrar_img{
+        margin-bottom: 70%;
+    } 
+    .curated_articles h3{
+       top:62%;
+    }
+}
+
+/*1090: Baixe Lo mas nuevo*/
+@media only screen and (max-width: 1090px){
+    #slideshow_Mas_Nuevo a{
+        width: 32.3%;
+    }
+}
+
+
+/*------------------COMENÇE TABLET--------------------*/
+/*1024: Recolocar News miles de juegos(footer), recolocar el footer i slideshow adalt(slideshow mirar a 1023), HEADER NOU, ETC*//* LA LLETRA AL CENTRE DEL SLYDESHOW DE ADALT ESTA CENTRADA AMB 1023 PX)*/
+@media only screen and (max-width: 1024px){
+    #Miles_Juegos{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #Miles_Juegos_Centrar{
+        width: 100%;
+        display:inline-block;
+    }
+    #Miles_Juegos_IMG1{
+        display:block;
+        margin:0 auto;
+        margin-bottom: 41px;
+    }
+    #Miles_Juegos_Centrar h2{
+        margin-left: 0px;
+        display:block;
+        text-align: center;
+        margin-bottom: 41px;
+    }
+    #Miles_Juegos_Centrar a{
+        float:none;
+        display:block;
+        margin:0 auto;
+    }
+    
+    #footer_centrar p:nth-child(1){
+        display:none;
+    }
+    #footer_centrar p:nth-child(2){
+        display:inline-block;
+        width: 100%;
+        margin: 25px 0px 0px 0px;
+        text-align: center;
+    }
+    #footer_centrar p:nth-child(3){
+        display:inline-block;
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+        text-align: center;
+    }
+    #footer_centrar a{
+        float:none;
+        display:inline-block;
+        margin-bottom:23px;
+    }
+    #footer_centrar a:nth-child(4){
+        margin-left: 20%;
+    }
+    #contacto{
+        width: 97%;
+    }
+    #unete{
+        width: 25%;
+    }
+    #curated_goods_centrar{
+        width: 98%;
+    }
+    #slideshow_Mas_Nuevo{
+        width: 97%;
+    }
+    #Miles_Juegos_Centrar{
+        width: 100%;
+    }    
+    #Universos_Destacados_Centrar{
+        width: 97%;
+    }
+    .Universos_Destacados_Div{
+        height: 260px;
+    }
+    .Universos_Destacados_Div p{
+        font-size: 18px;
+    }
+    #fondo_pj{
+        top:0%;
+    }
+    #fondo_heart{
+        bottom:31%;
+    }
+    #iniciar_sesion_i_registrarse{
+        display:none;
+    }
+    .slydeshow_background_blue{
+        display:inline-block;
+        z-index: 1;
+    }
+    .rellotje_i_data{
+        z-index: 2;
+    }
+    .rellotje_i_data{
+        width: 33.333%;
+        height: 65%;
+        bottom:0px;
+        top:35%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        margin:0px auto 0px auto;
+    }
+    .slydeshow_adalt_rellotje{
+        margin-left:-7%;
+        margin-top: 2.5%;
+    }
+    .slydeshow_adalt_data{
+        margin-top: 3%;
+        margin-left: -0.1%;
+    }
+    .slyde_adalt_nom_joc{
+        font-size: 26px;
+    }
+    .slyde_adalt_plataformes{
+        display:none;
+    }
+    
+    #slideshow_video video{
+        position:absolute;
+        bottom:15%;
+    }
+    
+    #slyde_rebajas{
+        margin-top: 7.5%;
+        font-size: 26px;
+    }
+    #slyde_adalt_img_2{
+        z-index: -1;
+    }
+    #slyde_adalt_img_2_copia{
+        display:inline-block;
+        position:absolute;
+        top:-35%;
+        left:33.333%;
+        width: 33.333%;
+    }
+    #slyde_adalt_img_3{
+        z-index: -1;
+    }
+    #slyde_adalt_img_3_copia{
+        display:inline-block;
+        position:absolute;
+        top:-12%;
+        left:66.666%;
+        width: 33.333%;
+    }
+    .upcoming_div{
+        width: 31%;
+    }
+    #upcoming_div1{
+        margin-left:2.35%;
+    }
+
+    #upcoming_div4{
+        margin-left:2.35%;
+    }
+    .upcoming_div p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .upcoming_div h2{
+        font-size: 15px;
+    }
+    #contacto h2{
+        font-size: 22px;
+    }
+    #contacto p{
+        font-size: 16px;
+    }
+    #registrar_juego h2{
+        font-size: 26px;
+    }
+    #registrar_juego p{
+        font-size: 14px;
+    }
+    #curated_goods h2{
+        font-size: 26px;
+    }
+    
+    #curated_goods_centrar a{
+        min-height: 240px;
+    }
+    
+    .curated_articles h3{
+        font-size: 13px;
+    }
+    .curated_aticles_centrar_img{
+        margin-bottom: 45%;
+    } 
+    .curated_articles h3{
+       top:72%;
+    }
+    .curated_articles p{
+        top:91%;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .mas_nuevo_div h3{
+        font-size: 14px;
+        height: 75px;
+    }
+    .Mas_Nuevo_Titulo{
+        font-size: 10px;
+    }
+    .Mas_Nuevo_Fecha{
+        font-size: 10px;
+    }
+    #proximamente h1{
+        font-size: 26px;
+    }
+    .play_button{
+        top:37%;
+        margin-left: 39%;
+    }
+    .button_scale{
+        width: 40px;
+        height: 40px;
+    }
+    .upcoming_div h2{
+        font-weight: 400;
+    }
+    .mas_nuevo_div{
+        text-align: center;
+    }
+    .mas_nuevo_div h3{
+        width: 80%;
+    }
+    #Universos_Destacados_Button{
+        background-color: rgba(0,0,0,0);
+        color:white;
+        border:2px solid white;
+        font-size: 12px;
+        padding:16px 30px 16px 30px;
+    }
+    #Universos_Destacados_Button:hover{
+        color:rgb(255, 173, 0);
+    }
+}
+
+/*1023 CANVIE IMG DE FONDO DE SIGAMOS EN CONTACTO*/
+@media only screen and (max-width: 1023px){
+    #contacto{
+        background-image: url(../img/Keep_inTouch_2.svg);
+        background-position: 50% 48%;
+        background-repeat: no-repeat;
+        background-size: 200% auto;
+    }
+}
+
+/*896: Els curated good*/
+@media only screen and (max-width: 896px){
+    .curated_aticles_centrar_img{
+        margin-bottom: 65%;
+    } 
+    .curated_articles h3{
+       top:64%;
+    }
+}
+
+/*876: Baixe 1 IMG del nuestros servicios*/
+@media only screen and (max-width: 876px){
+    #Universos_Destacados_Registrar a:nth-child(1){
+        width: 225px;
+    }
+
+    #Universos_Destacados_Registrar a:nth-child(2){
+        width: 225px;
+    }
+    
+    #Universos_Destacados_Letra_Pequena p{
+        width: 225px;
+    }
+}
+
+/*870: Slydeshow adalt rellotje*/
+@media only screen and (max-width: 870px){
+    .slydeshow_adalt_rellotje{
+        margin-left:-8%;
+    }
+}
+
+/*857: Universos destacados baixe*/
+@media only screen and (max-width: 857px){
+    .Universos_Destacados_Div:nth-child(3){
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+/*824: Baixe 1 IMG de casi footer*/
+@media only screen and (max-width: 824px){
+    #Universos_Destacados_Registrar a:nth-child(1){
+        width: 201px;
+    }
+
+    #Universos_Destacados_Registrar a:nth-child(2){
+        width: 201px;
+    }
+    
+    #Universos_Destacados_Letra_Pequena p{
+        width: 201px;
+    }
+}
+
+/*822: Footer baixe 1 a*/
+@media only screen and (max-width: 822px){
+    #footer_centrar a:nth-child(4),#footer_centrar a:nth-child(5),#footer_centrar a:nth-child(6),#footer_centrar a:nth-child(7){
+        margin-bottom: 5px;
+    }
+    #footer_centrar a:nth-child(8){
+        margin-top: 0px;
+        margin-left: 45%;
+    }
+}
+
+/*812: Curated goods baixe i lletra curated goods*/
+@media only screen and (max-width: 812px){
+    #curated_goods_centrar a:nth-child(1){
+        margin-left: 0.4%;
+    }
+    #curated_goods_centrar a:nth-child(5){
+        margin-left: 0.4%;
+    }
+    #curated_goods_centrar a:nth-child(2),#curated_goods_centrar a:nth-child(3),#curated_goods_centrar a:nth-child(4){
+        margin:0% 0.4% 0% 0.4%;
+    }
+    .curated_aticles_centrar_img{
+        margin-bottom: 75%;
+    } 
+    .curated_articles h3{
+       top:60%;
+    }
+    #Universos_Destacados_Registrar a:nth-child(5){
+        width: 90px;
+    }
+}
+
+/*768: Recolocar els curated goods, les coses del footer,etc*/
+@media only screen and (max-width: 768px){
+    .fondo_groc{
+        display:none;
+    }
+    #slideshow_video video{
+        position:absolute;
+        bottom:20%;
+    }
+    .slydeshow_background_blue{
+        top:30%;
+        width: 100%;
+        height: 70%;
+    }
+    #slyde_adalt_img_2_copia{
+        display:inline-block;
+        position:absolute;
+        top:-40%;
+        left:33.333%;
+        width: 33.333%;
+    }
+    #slyde_adalt_img_3{
+        z-index: -1;
+    }
+    #slyde_adalt_img_3_copia{
+        display:inline-block;
+        position:absolute;
+        top:-17%;
+        left:66.666%;
+        width: 33.333%;
+    }
+    .mas_acerca img{
+        height: 207px;
+    }
+    .mas_acerca:nth-child(1) img{
+        width: 150px;
+    }
+    .mas_acerca:nth-child(2) img{
+        width: 110px;
+    }
+    .mas_acerca:nth-child(3) img{
+        width: 151px;
+        height: 207px;
+    }
+    #Mas_Acerca_Friends{
+        margin-top: 4%;
+    }
+    #fondo_pj{
+        background-position: 50% 40%;
+    }
+    #fondo_heart{
+        background-position: 50% 40%;
+    }
+    #mas_acerca_friends_boton_2{
+        margin-top: 10%;
+    }
+    #curated_goods_centrar a{
+        width: 48.8%;
+        min-height: 135px;
+    }
+    .curated_aticles_centrar_img{
+        display:inline-block;
+        height: 135px;
+        width: 96px;
+        margin-top: 0px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .curated_aticles_centrar_img img{
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    #curated_goods_centrar{
+        width: 96%;
+    }
+    .curated_articles h3{
+        font-size: 12px;
+        float:left;
+        margin-left: 32%;
+        margin-top: -15%;
+        width: 56%;
+    }
+    .curated_articles p{
+        float:left;
+        margin-left: 21%;
+        margin-top: -7%;
+        font-size: 12px;
+        width: auto;
+    }
+    #curated_goods_centrar a{
+        height: 135px;
+        margin-bottom: 1.5%;
+    }
+    #curated_goods_centrar a:nth-child(3){
+        margin-bottom: 1.5%;
+    }
+    #curated_goods_centrar a:nth-child(5){
+        margin-bottom: 0%;
+    }
+    #curated_goods_centrar{
+        margin-bottom: 10px;
+    }
+    #loMasNuevo{
+        margin-top: 33px;
+    }
+    #slideshow_Mas_Nuevo h2{
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 33px;
+    }
+    #Universos_Destacados_Centrar h2{
+        font-size: 26px;
+        margin: 33px 0px 33px 0px;
+        text-align: center;
+    }
+    #Universos_Destacados{
+        background-image: none;
+    }
+    #Universos_Destacados_Div_Final_2{
+        display:block;
+        width: 100%;
+        margin-top: 35px;
+    }
+    #Universos_Destacados_Div_Final_2 a{
+        display:block;
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+    #Universos_Destacados_Div_Final_3{
+        position:absolute;
+        margin-top: 0px;
+        top:51.25%;
+        left:9%;
+    }
+    #Universos_Destacados_Centrar{
+        position:relative;
+    }
+    #Universos_Destacados_Letra_Pequena{
+        margin-bottom: 20%;
+    }
+    #Universos_Destacados_Letra_Pequena p{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    #Universos_Destacados_Letra_Pequena p:nth-child(1){
+        margin-top: 40px;
+    }
+    #Universos_Destacados_Registrar{
+        position:absolute;
+        top:84%;
+    }
+    
+    #Universos_Destacados_Registrar a{
+        margin-bottom: 0px;
+        display:block;
+        margin-left: 10px;
+    }
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 6.5%;
+        margin-bottom: 6.5%;
+    }
+    #Universos_Destacados_Registrar a:nth-child(4){
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background-size: 125% auto;
+        background-position: 100% 50%;
+    }
+    #footer_centrar a:nth-child(4){
+        margin-left: 10%;
+    }
+    #unete{
+        width: 35%;
+    }
+    .play_button{
+        margin-left: 34%;
+    }
+}
+
+/*-------------------TABLET VERSIO 2------------------*/
+/*767: Canvien lo de abaix de registrar juego, el "Lo mas nuevo", "Universos destacados", proximamente, basicament es transforme en 2 i no 3*/
+@media only screen and (max-width: 767px){
+    .rellotje_i_data{
+        text-align: left;
+    }
+    #slideshow_video video{
+        margin-bottom: 25%;
+    }
+    .slydeshow_adalt_IMG{
+        margin-bottom: 25%;
+    }
+    
+    .slydeshow_background_blue{
+        position:absolute;
+        top:38%;
+        width: 100%;
+    }
+    .slydeshow_adalt_rellotje{
+        margin-left:2%;
+        width: 14px;
+        height: 14px;
+        margin-top: 5.75%;
+    }
+    .slydeshow_adalt_data{
+        margin-top: 6%;
+        font-size: 10px;
+        color: rgb(157, 160, 192);
+        margin-left: 5%;
+    }
+    .slyde_adalt_nom_joc{
+        margin-left: 2%;
+        font-size: 24px;
+    }
+    .slydeshow_comprar_i_info a:nth-child(1){
+        margin-left: 2%;
+    }
+    #slyde_mas_info_2{
+        margin-left: 2%;
+    }
+    .slyde_adalt_plataformes{
+        display:inline-block;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    #Slyde_XBOX{
+        width: 76px;
+        height: 23px;
+    }
+    #Slyde_PS4{
+        display:inline-block;
+        width: 65px;
+        height: 23px;
+    }
+    #Slyde_XBOX_2{
+        width: 76px;
+        height: 23px;
+    }
+    #Slyde_PS4_2{
+        display:inline-block;
+        width: 65px;
+        height: 23px;
+    }
+    #slyde_pc{
+        width: 34px;
+        height: 23px;
+    }
+    #slyde_pc2{
+        width: 34px;
+        height: 23px;
+    }
+    .upcoming_div{
+        width: 46.5%;
+    }
+    #proximamente{
+        display:none;
+    }
+    #proximamente_Tablet{
+        display:block;
+    }
+    #slyde_adalt_img_2_copia{
+        display:inline-block;
+        position:absolute;
+        top:-32%;
+        left:33.333%;
+        width: 33.333%;
+    }
+    #slyde_adalt_img_3_copia{
+        display:inline-block;
+        position:absolute;
+        top:-17%;
+        left:66.666%;
+        width: 33.333%;
+    }
+    #slideshow_video video{
+        bottom:7%;
+    }
+    #slyde_adalt_img_2{
+        display:none;
+    }
+    #slyde_adalt_img3_Tablet{
+        display:inline-block;
+    }
+    .upcoming_img{
+        height: 65%;
+    }
+    .upcoming_div h2{
+        margin-top: 6%;
+    }
+    .upcoming_div p{
+        margin-bottom: 26%;
+    }
+    #contacto{
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    #contacto h2{
+        margin-top: 5%;
+    }
+    #contacto p:nth-child(2){
+        margin-top: 1.5%;
+    }
+    #contacto p:nth-child(3){
+        margin-top: -1%;
+        margin-bottom: 2%;
+    }
+    #unete{
+        margin-bottom: 5.5%;
+    }
+    #registrar_juego p:nth-child(4){
+        margin-top: 5%;
+    }
+    #registrar_juego p:nth-child(6){
+        margin-bottom: 5%;
+    }
+    #fondo_pj{
+        background-position: 50% 25%;
+    }
+    #fondo_heart{
+        background-position: 50% 25%;
+    }    
+    #registra_heart{
+        display:none;
+    }
+    #registra_juego_boton{
+        min-width:28%;
+    }
+    #registra_juego_boton p{
+        margin-left: 0%;
+    }
+    .mas_acerca{
+        width: 100%;
+    }
+    .mas_acerca h2{
+        font-size: 24px;
+    }
+    .mas_acerca:nth-child(2),.mas_acerca:nth-child(3){
+        margin-top: 1%;
+    }
+    .mas_acerca p{
+        font-size: 14px;
+    }
+    #mas_acerca_friends_boton_2{
+        margin-top: 2%;
+    }
+    #curated_goods{
+        margin-top: 6%;
+    }
+    #loMasNuevo{
+        display:none;
+    }
+    #loMasNuevo_Tablet{
+        display:inline-block;
+    }
+    #slideshow_Mas_Nuevo_Tablet .play_button{
+        margin-left: 40%;
+        top: 40%;
+    }
+    #Universos_Destacados_Centrar > .Universos_Destacados_Div:nth-child(2),#Universos_Destacados_Centrar > .Universos_Destacados_Div:nth-child(3),#Universos_Destacados_Centrar > .Universos_Destacados_Div:nth-child(4){
+        display:none;
+    }
+    #slideshow_Universos_Destacados{
+        display:inline-block;
+        margin-bottom: 7%;
+    }
+    #Universos_Destacados_Div_Final_3{
+        top:54.25%;
+    }
+    #Universos_Destacados_Div_Final_1{
+        margin-left: 0.5%;
+    }
+    #Universos_Destacados_Div_Final_2{
+        margin-left: 0.5%;
+    }
+    #slyde_rebajas{
+        margin-top: 11%;
+    }
+}
+
+/*746: Lo más buscado baixe*/
+@media only screen and (max-width: 746px){
+    #slideshow_Mas_Nuevo_Tablet a:nth-child(1){
+        margin-left:2%; 
+    }
+
+    #slideshow_Mas_Nuevo_Tablet a:nth-child(2){
+        margin-left: 2.25%;
+        margin-right: 2%;
+    }
+
+    #slideshow_Mas_Nuevo_Tablet a:nth-child(3){
+        margin-left: 2%;
+    }
+
+    #slideshow_Mas_Nuevo_Tablet a:nth-child(4){
+        margin-left: 2.25%;
+        margin-right: 2%;
+    }
+
+    #slideshow_Mas_Nuevo_Tablet a:nth-child(5){
+        margin-left: 2%;
+    }
+
+    #slideshow_Mas_Nuevo_Tablet a:nth-child(6){
+        margin-left: 2.25%;
+        margin-right: 2%;
+    }
+}
+
+/*715: Lletres de curated goods, casi footer el absolute amb img */
+@media only screen and (max-width: 715px){
+    .curated_articles h3{
+        margin-left: 35%;
+        margin-top:-60px;
+    }
+    .curated_articles p{
+        margin-left: 25%;
+        margin-top:-25px;
+    }
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 7%;
+        margin-bottom: 8%;
+    }
+    #Universos_Destacados_Registrar{
+        top:84.75%;
+    }
+    #Universos_Destacados_Letra_Pequena{
+        margin-bottom: 22.75%;
+    }
+}
+
+/*676: Footer baixe 1 a*/
+@media only screen and (max-width: 676px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 20%;
+    }
+    #footer_centrar a:nth-child(7){
+        margin-top: 0px;
+        margin-left: 30%;
+    }
+    #footer_centrar a:nth-child(8){
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+}
+
+/*650: Icona de video*/
+@media only screen and (max-width: 650px){
+    .slydeshow_adalt_rellotje{
+        margin-top: 8%;
+        margin-left: 3%;
+    }
+    .slydeshow_adalt_data{
+        margin-top: 8.25%;
+        margin-left: 3%;
+    }
+    .slydeshow_adalt_data{
+        margin-left: 6.5%;
+    }
+    .slyde_adalt_nom_joc{
+        margin-left: 3%;
+    }
+    .slydeshow_comprar_i_info a:nth-child(1){
+        margin-left: 3%;
+    }
+    #slyde_mas_info_2{
+        margin-left: 3%;
+    }
+    .slyde_adalt_plataformes{
+        margin-left: 3.5%;
+    }
+    #unete{
+        width: 40%;
+    }
+    #slideshow_video video{
+        margin-bottom: 37%;
+    }
+    .slydeshow_adalt_IMG{
+        margin-bottom: 37%;
+    }
+    #slideshow_Mas_Nuevo_Tablet .play_button{
+        margin-left: 37.5%;
+    }
+    .curated_articles h3{
+        margin-left: 110px;
+    }
+    .curated_articles p{
+        margin-left: 80px;
+    }
+    #Universos_Destacados_Div_Final_3{
+        top:53.75%;
+        left: 65px;
+    }
+}
+
+/*589: Baixe 1 curated good*/
+@media only screen and (max-width: 589px){
+    #curated_goods_centrar a:nth-child(1){
+        margin-left: 0.3%;
+    }
+    #curated_goods_centrar a:nth-child(5){
+        margin-left: 0.3%;
+    }
+    #curated_goods_centrar a:nth-child(2),#curated_goods_centrar a:nth-child(3),#curated_goods_centrar a:nth-child(4){
+        margin:0% 0.3% 0% 0.3%;
+    }
+    #curated_goods_centrar a:nth-child(3){
+        margin-bottom: 1.5%;
+    }
+}
+
+/*575: IMG de Plataformes baixe masa*/
+@media only screen and (max-width: 575px){
+    #slideshow_video video{
+        margin-bottom: 50%;
+    }
+    .slydeshow_adalt_IMG{
+        margin-bottom: 50%;
+    }
+    #unete{
+        width: 50%;
+    }
+}
+
+/*573: Footer desmontat*/
+@media only screen and (max-width: 573px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 15%;
+    }
+}
+
+/*550: IMG de fondo de registrar un juego*/
+@media only screen and (max-width: 550px){
+    #fondo_pj{
+        background-position: 50% 20%;
+    }
+    #fondo_heart{
+        background-position: 50% 20%;
+    }
+    #slideshow_Mas_Nuevo_Tablet .play_button{
+        margin-left: 35.5%;
+    }
+    #registra_juego_boton{
+        width: 40%;
+    }
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 8.5%;
+        margin-bottom: 9.5%;
+    }
+}
+
+/*540: Curated articles H3 masa gran*/
+@media only screen and (max-width: 540px){
+    .curated_articles h3{
+        width: 52%;
+    }
+    #Universos_Destacados_Letra_Pequena p{
+        width: 51%;
+    }
+    #Universos_Destacados_Letra_Pequena p:nth-child(3){
+        width: 51%;
+    }
+}
+
+/*524: Lletra 1r Proximamente slydeshow*/
+@media only screen and (max-width: 524px){
+    .upcoming_div h2{
+        width: 90%;
+        left:6%;
+    }
+}
+
+/*513: Footer desmontat*/
+@media only screen and (max-width: 573px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 12%;
+    }
+}
+
+/*-------------MOBIL-------------*/
+/*479: Basicament tot lo que abans era 2 ara es 1, lleuger canvi en slydeshow_adalt*/
+@media only screen and (max-width: 479px){
+    #slideshow_video video{
+        margin-bottom: 69%;
+    }
+    .slydeshow_adalt_IMG{
+        margin-bottom: 69%;
+    }
+    #slideshow_video video{
+        top:0%;
+    }
+    .slyde_adalt_plataformes{
+        margin-top: 37px;
+    }
+    .slydeshow_adalt_data{
+        margin-top: 53px;
+        margin-left: 35px;
+    }
+    .slydeshow_adalt_rellotje{
+        margin-top: 50px;
+    }
+    #proximamente_Tablet{
+        display:none;
+    }
+    #proximamente_Mobil{
+        display:inline-block;
+    }
+    .upcoming_div{
+        width: 100%;
+    }
+    .upcoming_div .upcoming_img{
+        transition-duration:0.3s;
+    }
+    .upcoming_div:hover .upcoming_img{
+        border: 20px solid black;
+    }
+    #slideshow_Mas_Nuevo a:hover .zoom_mas_nuevo{
+        border-left:20px solid #303f9f;
+        border-right:20px solid #303f9f;
+        border-top:20px solid #303f9f;
+    }
+    #contacto{
+        margin-top: 12%;
+        width: 93.5%;
+    }
+    #contacto h2{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    #contacto p:nth-child(3){
+        margin-bottom: 15px;
+    }
+    #unete{
+        margin-bottom: 30px;
+    }
+    #fondo_heart{
+        background-size: auto 235px;
+        background-position: 50% 27%;
+    }
+    #fondo_pj{
+        background-size: auto 235px;
+        background-position: 50% 27%;
+    }
+    #registrar_juego h2{
+        margin-top: 20%;
+    }
+    #curated_goods_centrar a{
+        width: 94%;
+    }
+    #curated_goods_centrar a:nth-child(1),#curated_goods_centrar a:nth-child(2),#curated_goods_centrar a:nth-child(3),#curated_goods_centrar a:nth-child(4){
+        margin-left: 3%;
+        margin-bottom: 1%;
+    }
+    #curated_goods_centrar a:nth-child(5){
+        margin-left: 3%;
+    }
+    .curated_articles h3{
+        width: 68%;
+        margin-left: 115px;
+    }
+    .curated_articles p{
+        width: 68%;
+        margin-left: 70px;
+    }
+    #loMasNuevo_Mobil{
+        display:inline-block;
+    }
+    #loMasNuevo_Tablet{
+        display:none;
+    }
+    #slideshow_Mas_Nuevo_Mobil .play_button{
+        margin-left: 42%;
+        top:43%;
+    }
+    .Universos_Destacados_Div{
+        width: 100%;
+    }
+    #slideshow_Universos_Destacados{
+        display:none;
+    }
+    #slideshow_Universos_Destacados_Mobil{
+        display:block;
+    }
+    #Universos_Destacados_Div_Final_3{
+        top:51.75%;
+    }
+    #Universos_Destacados_Div_Final_3 a{
+        margin-left: 8px;
+    }
+    #Universos_Destacados_Letra_Pequena{
+        margin-bottom: 31%;
+    }
+    #footer_centrar a:nth-child(4){
+        margin-left: 10%;
+    }
+    #Universos_Destacados_Registrar{
+        top:84%;
+    }
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 10%;
+    }
+    .slydeshow_comprar, .slydeshow_info{
+        width: 48%;
+    }
+    .slydeshow_comprar_i_info{
+        display:block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 92%;
+    }
+    .slydeshow_comprar_i_info a:nth-child(1),.slydeshow_comprar_i_info a:nth-child(2){
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .slydeshow_comprar_i_info a:nth-child(2){
+        float:right;
+    }
+    #slyde_rebajas{
+        margin-top: 95px;
+    }
+    #slyde_mas_info_2{
+        margin-left: 0px;
+    }
+}
+
+/*460: Footer desmonte*/
+@media only screen and (max-width: 460px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 8%;
+    }
+    #footer_centrar{
+        width: 100%;
+    }
+}
+
+/*455: IMG de fondo de registrar un juego */
+@media only screen and (max-width: 455px){
+    #fondo_pj{
+        background-position: 50% 15%;
+    }
+    #fondo_heart{
+        background-position: 50% 15%;
+    }
+    #registra_juego_boton{
+        width: 45%;
+    }
+}
+
+/*450: IMG casi footer*/
+@media only screen and (max-width: 450px){
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
+}
+
+/*432: IMG de Registrar juego, UN ALTRE COP*/
+@media only screen and (max-width: 432px){
+    #fondo_pj{
+        height: 235px;
+        top:20px;
+    }
+    #fondo_heart{
+        height: 235px;
+        top:20px;
+    }
+    #registrar_juego h2{
+        margin-top: 120px;
+    }
+    #slideshow_video video{
+        margin-bottom:85%;
+    }
+    .slydeshow_adalt_IMG{
+        margin-bottom:85%;
+    }
+    
+    .slydeshow_background_blue{
+        position:absolute;
+        top:35%;
+        width: 100%;
+    }
+}
+
+/*420: Footer baixe 1 a*/
+@media only screen and (max-width: 420px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 6%;
+    }
+}
+
+/*410: Boto #unete, footer es desmonte*/
+@media only screen and (max-width: 410px){
+    #unete{
+        width: 70%;
+    }
+    #footer_centrar a:nth-child(4){
+        margin-left: 5%;
+    }
+    #footer_centrar{
+        width: 100%;
+    }
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 12%;
+        margin-bottom: 12%;
+    }
+}
+
+/*390: Footer desmonte, per 20000e cop*/
+@media only screen and (max-width: 390px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 10px;
+    }
+}
+
+/*379: Footer desmonte, solucio FINAL*/
+@media only screen and (max-width: 379px){
+    #footer_centrar a:nth-child(4){
+        margin-left: 17%;
+    }
+    #footer_centrar a:nth-child(6){
+        margin-left: 22%;
+        margin-top: 0px;
+    }
+    #footer_centrar a:nth-child(7){
+        margin-left: 7%;
+    }
+    #footer_centrar a:nth-child(8){
+        margin-left: 42%;
+    }
+}
+
+/*360: FINAL: IMG de casi footer*/
+@media only screen and (max-width: 360px){
+    #Universos_Destacados_Registrar a:nth-child(2){
+        margin-top: 13.5%;
+        margin-bottom: 13.5%;
+    }
+    #Universos_Destacados_Letra_Pequena{
+        margin-bottom: 43%;
+    }
+    #curated_goods_centrar a:nth-child(1),#curated_goods_centrar a:nth-child(2),#curated_goods_centrar a:nth-child(3),#curated_goods_centrar a:nth-child(4){
+        margin-bottom: 2%;
+    }
+    #slideshow_Mas_Nuevo_Mobil .play_button{
+        margin-left: 38.5%;
+        top:40%;
+    }
+    .curated_articles h3{
+        width: 60%;
+    }
+}

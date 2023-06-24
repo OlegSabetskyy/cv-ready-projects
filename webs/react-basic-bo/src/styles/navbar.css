@@ -1,0 +1,8 @@
+#nav[is-expanded="true"] #navbar-icons {
+    left: 0px;
+}
+
+#nav[is-expanded="true"] #navbar-backdrop {
+    opacity: 100;
+    visibility: visible;
+}

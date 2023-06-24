@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jocs SYSTEM "jocs.dtd">
+
+<jocs>
+  <!--GTA 5-->
+  <joc_pack>
+        <joc id="a1">
+            <caratula>gta5_pc.jpg</caratula>
+            <requisitsMinims>
+              <ram_m>4 GB RAM</ram_m>
+              <hdd_m>72 GB d'espai lliure</hdd_m>
+              <cpu_m>Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz</cpu_m>
+              <so_m id="so_m1"></so_m>
+            </requisitsMinims>
+            <requisitsRecomendats>
+              <ram_r>8 GB RAM</ram_r>
+              <hdd_r>72 GB d'espai lliure</hdd_r>
+              <cpu_r>Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)</cpu_r>
+              <so_r id="so_r1"></so_r>
+            </requisitsRecomendats>
+            <data_llancament>14/4/2015</data_llancament>
+            <preu>19.99€</preu>
+            <puntuacio>96</puntuacio>
+            <descompte>0.5</descompte>
+            <venuts>130</venuts>
+        </joc>
+
+        <joc id="a1_2">
+            <caratula>gta5_xboxOne.jpg</caratula>
+            <data_llancament>14/12/2017</data_llancament>
+            <preu>19.99€</preu>
+            <puntuacio>97</puntuacio>
+            <descompte>0.5</descompte>
+            <venuts>150</venuts>
+        </joc>
+
+        <nom>Grand Theft Auto V</nom>
+        <descripcio>Asóciate con el empresario Tony Prince para abrir y gestionar un club nocturno en el que pinchan los mejores DJ del mundo (Solomun, Tale Of Us, Dixon y The Black Madonna), y úsalo de tapadera para ocultar la red de organizaciones criminales más densa de San Andreas.</descripcio>
+        <fons_img>gta5_background.jpeg</fons_img>
+     </joc_pack>
+  
+  <!--JUMP FORCE-->
+  <joc_pack>
+      <joc id="a2">
+        <caratula>jump_force_pc.jpg</caratula>
+        <requisitsMinims>
+          <ram_m>4 GB RAM</ram_m>
+          <hdd_m>17 GB d'espai lliure</hdd_m>
+          <cpu_m>Intel Core i5-2300, 2.80 GHz / AMD A10-7850K, 3.70 GHz</cpu_m>
+          <so_m id="so_m2"></so_m>
+        </requisitsMinims>
+        <requisitsRecomendats>
+          <ram_r>8 GB RAM</ram_r>
+          <hdd_r>17 GB d'espai lliure</hdd_r>
+          <cpu_r>Intel Core i7-6700 / AMD Ryzen 5 1400</cpu_r>
+          <so_r id="so_r2"></so_r>
+        </requisitsRecomendats>
+        <data_llancament>15/2/2019</data_llancament>
+        <preu>29.99€</preu>
+        <puntuacio>84</puntuacio>
+        <descompte>0.3</descompte>
+        <venuts>200</venuts>
+      </joc>
+
+
+      <joc id="a2_2">
+        <caratula>jump_force_xboxOne.jpg</caratula>
+        <data_llancament>15/2/2019</data_llancament>
+        <preu>29.99€</preu>
+        <puntuacio>78</puntuacio>
+        <descompte>0.3</descompte>
+        <venuts>240</venuts>
+      </joc>
+
+      <nom>Jump Force</nom>
+      <descripcio>Los héroes más famosos del manga llegan a un nuevo campo de batalla: nuestro mundo. La Jump Force se une para enfrentarse a la amenaza más peligrosa y proteger el destino de toda la humanidad.
+
+    Crea tu propio avatar y lucha en el original modo Historia junto a los increíbles héroes de DRAGON BALL Z, ONE PIECE, NARUTO, BLEACH, HUNTER X HUNTER, YU-GI-OH!, YU YU HAKUSHO, SAINT SEIYA y muchos más.
+
+    O entra en la sala online para desafiar a otros jugadores y descubrir multitud de modos y actividades.
+        </descripcio>
+        <fons_img>jumpforce_wallpaper.jpg</fons_img>
+    </joc_pack>
+    
+  <!--RED DEAD REDEMPTION 2-->
+  <joc_pack>
+      <joc id="a3">
+        <caratula>red_dead_redemption2_xboxOne.jpg</caratula>
+        <data_llancament>26/10/2018</data_llancament>
+        <preu>59.99€</preu>
+        <puntuacio>95</puntuacio>
+        <descompte>0</descompte>
+        <venuts>70</venuts>
+      </joc>
+
+      <joc id="a3_2">
+        <caratula>red_dead_redemption2_ps4.jpg</caratula>
+        <data_llancament>26/10/2018</data_llancament>
+        <preu>59.99€</preu>
+        <puntuacio>94</puntuacio>
+        <descompte>0</descompte>
+        <venuts>134</venuts>
+      </joc>
+      
+      <nom>Red Dead Redemption 2</nom>
+        <descripcio>América, 1899. El ocaso del Salvaje Oeste ha comenzado y las fuerzas de la ley dan caza a las últimas bandas de forajidos. Los que no se rinden o sucumben, son asesinados.
+
+    Tras un desastroso atraco fallido en la ciudad de Blackwater, Arthur Morgan y la banda de Van der Linde se ven obligados a huir. Con agentes federales y los mejores cazarrecompensas de la nación pisándoles los talones, la banda deberá atracar, robar y luchar, para sobrevivir en su camino por el escabroso territorio del corazón de América. Mientras las divisiones internas aumentan y amenazan con separarlos a todos, Arthur deberá elegir entre sus propios ideales y la lealtad a la banda que lo vio crecer.
+        </descripcio>
+        <fons_img>red_dead_redemption2_background.jpg</fons_img>
+  </joc_pack>
+  
+  <!--COD BO 2-->
+  <joc_pack>
+      <joc id="a4">
+        <caratula>COD_BO2_PC.png</caratula>
+        <requisitsMinims>
+          <ram_m>2 GB RAM</ram_m>
+          <hdd_m>10 GB d'espai lliure</hdd_m>
+          <cpu_m>Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz</cpu_m>
+          <so_m id="so_m4"></so_m>
+        </requisitsMinims>
+        <requisitsRecomendats>
+          <ram_r>4 GB RAM</ram_r>
+          <hdd_r>10 GB d'espai lliure</hdd_r>
+          <cpu_r>Intel Core 2 Duo E8500 3.16GHz / AMD Athlon II X3 415e</cpu_r>
+          <so_r id="so_r4"></so_r>
+        </requisitsRecomendats>
+        <data_llancament>13/11/2012</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>84</puntuacio>
+        <descompte>0.2</descompte>
+        <venuts>450</venuts>
+      </joc>
+
+      <joc id="a4_2">
+        <caratula>COD_BO2_Xbox360.jpg</caratula>
+        <data_llancament>13/11/2012</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>61</puntuacio>
+        <descompte>0.4</descompte>
+        <venuts>143</venuts>
+      </joc>
+
+      <joc id="a4_3">
+        <caratula>COD_BO2_WiiU.jpg</caratula>
+        <data_llancament>13/11/2012</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>76</puntuacio>
+        <descompte>0.1</descompte>
+        <venuts>153</venuts>
+      </joc>
+
+      <joc id="a4_4">
+        <caratula>COD_BO2_PS3.jpeg</caratula>
+        <data_llancament>13/11/2012</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>86</puntuacio>
+        <descompte>0.1</descompte>
+        <venuts>613</venuts>
+      </joc>
+      
+      <nom>Call of Duty Black Ops II</nom>
+      <descripcio>Superando las expectativas de los fans con respecto a esta franquicia que ha batido todos los récords, Call of Duty®: Black Ops 2 lleva a los jugadores a un futuro cercano, la Guerra Fría del siglo XXI, donde la tecnología y las armas han dado pie a una nueva generación bélica.
+      </descripcio>
+      <fons_img>cod_bo2_background.jpeg</fons_img>
+  </joc_pack>
+  
+  <!--Dragon Ball Z: Budokai Tenkaichi 3-->
+  <joc_pack>
+      <joc id="a5">
+        <caratula>DBZ_Budokai_Tenkaichi3_PS2.jpg</caratula>
+        <data_llancament>13/11/2007</data_llancament>
+        <preu>9.99€</preu>
+        <puntuacio>97</puntuacio>
+        <descompte>0.2</descompte>
+        <venuts>313</venuts>
+      </joc>
+
+      <joc id="a5_2">
+        <caratula>DBZ_Budokai_Tenkaichi3_Wii.jpg</caratula>
+        <data_llancament>15/11/2008</data_llancament>
+        <preu>4.99€</preu>
+        <puntuacio>85</puntuacio>
+        <descompte>0.1</descompte>
+        <venuts>613</venuts>
+      </joc>
+      
+      <nom>Dragon Ball Z: Budokai Tenkaichi 3</nom>
+      <descripcio>DBZ Budokai Tenkaichi 3 combina la rapidez de la lucha y de la acción que caracteriza a la saga. El juego, completamente en 3D, desarrollado por Namco Bandai, cuenta con unos efectos y escenarios totalmente mejorados.
+      </descripcio>
+      <fons_img>dbz_budokai_tenkaichi_3_background.jpg</fons_img>
+  </joc_pack>
+  
+  <!--Sekiro-->
+  <joc_pack>
+      <joc id="a6">
+        <caratula>Sekiro_PC.jpg</caratula>
+        <requisitsMinims>
+          <ram_m>4 GB RAM</ram_m>
+          <hdd_m>25 GB d'espai lliure</hdd_m>
+          <cpu_m>Intel Core i3-2100 | AMD FX-6300</cpu_m>
+          <so_m id="so_m6"></so_m>
+        </requisitsMinims>
+        <requisitsRecomendats>
+          <ram_r>8 GB RAM</ram_r>
+          <hdd_r>25 GB d'espai lliure</hdd_r>
+          <cpu_r>Intel Core i5-2500K | AMD Ryzen 5 1400</cpu_r>
+          <so_r id="so_r6"></so_r>
+        </requisitsRecomendats>
+        <data_llancament>22/3/2019</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>93</puntuacio>
+        <descompte>0.3</descompte>
+        <venuts>513</venuts>
+      </joc>
+
+      <joc id="a6_2">
+        <caratula>Sekiro_PS4.jpg</caratula>
+        <data_llancament>22/3/2019</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>92</puntuacio>
+        <descompte>0.2</descompte>
+        <venuts>413</venuts>
+      </joc>
+
+       <joc id="a6_3">
+        <caratula>Sekiro_xboxOne.jpg</caratula>
+        <data_llancament>22/3/2019</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>91</puntuacio>
+        <descompte>0.3</descompte>
+        <venuts>420</venuts>
+      </joc>
+      
+      <nom>Sekiro: Shadows Die Twice</nom>
+      <descripcio>Sekiro: Shadows Die Twice, con más de 50 premios y nominaciones, es la nueva aventura de FromSoftware, creadores de Bloodborne y Dark Souls. Traza tu propio camino hacia la venganza en un nuevo juego de acción y aventuras.
+      </descripcio>
+      <fons_img>sekiro_background.jpeg</fons_img>
+  </joc_pack>
+  
+  <!--Devil May Cry 5-->
+  <joc_pack>
+      <joc id="a7">
+        <caratula>DevilMayCry5_PC.jpg</caratula>
+        <requisitsMinims>
+          <ram_m>8 GB RAM</ram_m>
+          <hdd_m>35 GB d'espai lliure</hdd_m>
+          <cpu_m> Intel® Core™ i5-4460, AMD FX™-6300, or better</cpu_m>
+          <so_m id="so_m7"></so_m>
+        </requisitsMinims>
+        <requisitsRecomendats>
+          <ram_r>8 GB RAM</ram_r>
+          <hdd_r>25 GB d'espai lliure</hdd_r>
+          <cpu_r>Intel® Core™ i7-3770, AMD FX™-9590, or better</cpu_r>
+          <so_r id="so_r7"></so_r>
+        </requisitsRecomendats>
+        <data_llancament>8/3/2019</data_llancament>
+        <preu>39.99€</preu>
+        <puntuacio>90</puntuacio>
+        <descompte>0.2</descompte>
+        <venuts>414</venuts>
+      </joc>
+
+      <joc id="a7_2">
+        <caratula>DevilMayCry5_PS4.jpg</caratula>
+        <data_llancament>8/3/2019</data_llancament>
+        <preu>39.99€</preu>
+        <puntuacio>90</puntuacio>
+        <descompte>0.25</descompte>
+        <venuts>314</venuts>
+      </joc>
+
+      <joc id="a7_3">
+        <caratula>DevilMayCry5_xboxOne.jpg</caratula>
+        <data_llancament>8/3/2019</data_llancament>
+        <preu>39.99€</preu>
+        <puntuacio>90</puntuacio>
+        <descompte>0.25</descompte>
+        <venuts>374</venuts>
+      </joc>
+      
+      <nom>Devil May Cry 5</nom>
+      <descripcio>El cazademonios definitivo vuelve con estilo en el juego que los fans de la acción estaban esperando.
+
+    Devil May Cry 5, una nueva entrega de esta legendaria serie de acción, une su característica combinación de acción frenética y personajes de otro mundo con la última tecnología en videojuegos de Capcom para crear una obra maestra de la acción-aventura revolucionaria gráficamente.
+      </descripcio>
+      <fons_img>devil_may_cry5_background.jpeg</fons_img>
+  </joc_pack>
+  
+  <!--Bioshock-->
+  <joc_pack>
+      <joc id="a8">
+        <caratula>Bioshock_PC.jpg</caratula>
+        <requisitsMinims>
+          <ram_m>1 GB RAM</ram_m>
+          <hdd_m>8 GB d'espai lliure</hdd_m>
+          <cpu_m>Intel Pentium 4 Single Core a 2.4 GHz</cpu_m>
+          <so_m id="so_m8"></so_m>
+        </requisitsMinims>
+        <requisitsRecomendats>
+          <ram_r>2 GB RAM</ram_r>
+          <hdd_r>8 GB d'espai lliure</hdd_r>
+          <cpu_r>Intel Core 2 Duo processor</cpu_r>
+          <so_r id="so_r8"></so_r>
+        </requisitsRecomendats>
+        <data_llancament>21/8/2007</data_llancament>
+        <preu>9.99€</preu>
+        <puntuacio>100</puntuacio>
+        <descompte>0.75</descompte>
+        <venuts>450</venuts>
+      </joc>
+
+      <joc id="a8_2">
+        <caratula>Bioshock_PS3.jpg</caratula>
+        <data_llancament>21/8/2007</data_llancament>
+        <preu>9.99€</preu>
+        <puntuacio>95</puntuacio>
+        <descompte>0.25</descompte>
+        <venuts>125</venuts>
+      </joc>
+
+      <joc id="a8_3">
+        <caratula>Bioshock_xbox360.jpg</caratula>
+        <data_llancament>21/8/2007</data_llancament>
+        <preu>9.99€</preu>
+        <puntuacio>95</puntuacio>
+        <descompte>0.25</descompte>
+        <venuts>125</venuts>
+      </joc>
+      
+      <joc id="a8_4">
+        <caratula>Bioshock_PS4.jpg</caratula>
+        <data_llancament>21/8/2007</data_llancament>
+        <preu>19.99€</preu>
+        <puntuacio>95</puntuacio>
+        <descompte>0.25</descompte>
+        <venuts>173</venuts>
+      </joc>
+      
+      <joc id="a8_5">
+        <caratula>Bioshock_xboxOne.jpg</caratula>
+        <data_llancament>21/8/2007</data_llancament>
+        <preu>29.99€</preu>
+        <puntuacio>88</puntuacio>
+        <descompte>0</descompte>
+        <venuts>225</venuts>
+      </joc>
+      
+      <nom>BioShock™</nom>
+      <descripcio>BioShock es un shooter distinto a todos los que has jugado antes, lleno de armas y tácticas nunca vistas. Tendrás un completo arsenal a tu disposición: desde sencillos revólveres a lanzagranadas y lanzadores de productos químicos, pero también estarás obligado a modificar tu ADN para crear un arma mucho más mortífera: tú. Al inyectarte plásmidos conseguirás superpoderes: lanza descargas eléctricas al agua para electrocutar múltiples enemigos, o congélalos en un bloque de hielo para hacerlos pedazos con un golpe de llave inglesa. 
+    Ningún encuentro se juega de la misma manera, ni dos jugadores jugarán igual.
+      </descripcio>
+      <fons_img>bioshock_background.jpg</fons_img>
+  </joc_pack>
+  
+  <!--Civilization V-->
+  <joc_pack>      
+      <joc id="a9">
+        <caratula>civilization5.jpg</caratula>
+        <requisitsMinims>
+          <ram_m>2 GB RAM</ram_m>
+          <hdd_m>8 GB d'espai lliure</hdd_m>
+          <cpu_m>Intel Core 2 Duo a 1.8 GHz o AMD Athlon X2 64 a 2.0 GHz</cpu_m>
+          <so_m id="so_m9"></so_m>
+        </requisitsMinims>
+        <requisitsRecomendats>
+          <ram_r>4 GB RAM</ram_r>
+          <hdd_r>8 GB d'espai lliure</hdd_r>
+          <cpu_r>Quad Core a 1.8 GHz</cpu_r>
+          <so_r id="so_r9"></so_r>
+        </requisitsRecomendats>
+        <data_llancament>24/8/2010</data_llancament>
+        <preu>49.99€</preu>
+        <puntuacio>92</puntuacio>
+        <descompte>0.9</descompte>
+        <venuts>140</venuts>
+      </joc>
+      
+      <nom>Sid Meier's Civilization V</nom>
+      <descripcio>El Buque Insignia de los juegos de estrategia por turnos ha regresado 
+
+Conviértete en el Amo del Mundo estableciendo y liderando una civilización desde los albores del hombre hasta la era espacial: haz la guerra, conduce la diplomacia, descubre nuevas tecnologías, enfréntate a algunos de los líderes más importantes de la historia y construye el imperio más poderoso que el mundo haya conocido. 
+      </descripcio>
+      <fons_img>civilization5_background.jpg</fons_img>
+  </joc_pack>
+  
+  
+  
+  <plataformes>
+    <plataforma ref="a1 a2 a4 a6 a7 a8 a9">PC</plataforma>
+    <plataforma ref="a3_2 a6_2 a7_2 a8_4">PlayStation 4</plataforma>
+    <plataforma ref="a1_2 a2_2 a3 a6_3 a7_3 a8_5">XBOX ONE</plataforma>
+    <plataforma ref="a4_4 a8_2">PlayStation 3</plataforma>
+    <plataforma ref="a4_2 a8_3">Xbox 360</plataforma>
+    <plataforma ref="a4_3">Wii U</plataforma>
+    <plataforma ref="a5">PlayStation 2</plataforma>
+    <plataforma ref="a5_2">Wii</plataforma>
+  </plataformes>
+
+  <generes>
+    <genere ref="a1 a1_2 a3 a3_2 a6 a6_2 a6_3">Aventura</genere>
+    <genere ref="a1 a1_2 a3 a3_2 a6 a6_2 a6_3 a7 a7_2 a7_3">Acción</genere>
+    <genere ref="a2 a2_2 a5 a5_2">Lucha</genere>
+    <genere ref="a4 a4_2 a4_3 a4_4 a8 a8_2 a8_3 a8_4 a8_5">Disparos en primera persona</genere>
+    <genere ref="a7 a7_2 a7_3">Hack and slash</genere>
+    <genere ref="a7_3">Estrategia por turnos</genere>
+    <genere ref="a9">4X</genere>
+  </generes>
+  
+  <idiomes>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a4 a4_2 a4_3 a4_4 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a8 a8_2 a8_3 a8_4 a8_5 a9">ES</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a4 a4_2 a4_3 a4_4 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a8 a8_2 a8_3 a8_4 a8_5 a9">UK</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a9">CN</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a4 a4_2 a4_3 a4_4 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a8 a8_2 a8_3 a8_4 a8_5 a9">DE</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a4 a4_2 a4_3 a4_4 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a8 a8_2 a8_3 a8_4 a8_5 a9">FR</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a4 a4_2 a4_3 a4_4 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a8 a8_2 a8_3 a8_4 a8_5 a9">IT</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a8 a8_2 a8_3 a8_4 a8_5 a9">JP</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a9">KR</idioma>
+    <idioma ref="a1 a1_2 a3 a3_2 a3 a3_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a9">PL</idioma>
+    <idioma ref="a1 a1_2 a2 a2_2 a3 a3_2 a5 a5_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a9">RU</idioma>
+    <idioma ref="a2 a2_2">AR</idioma>
+    <idioma ref="a2 a2_2 a3 a3_2 a6 a6_2 a6_3 a7 a7_2 a7_3 a9">PL</idioma>
+    <idioma ref="a2 a2_2 a3 a3_2">PT</idioma>
+    <idioma ref="a6 a6_2 a6_3">TH</idioma>
+    <idioma ref="a7 a7_2 a7_3">BR</idioma>
+  </idiomes>
+ 
+  <desenvolupadora>
+    <desenvolupador ref="a1 a1_2 a3 a3_2">Rockstar</desenvolupador>
+    <desenvolupador ref="a2 a2_2 a5 a5_2">Namco</desenvolupador>
+    <desenvolupador ref="a4 a4_2 a4_3 a4_4 a6 a6_2 a6_3">Activision</desenvolupador>
+    <desenvolupador ref="a7 a7_2 a7_3">Capcom</desenvolupador>
+    <desenvolupador ref="a8 a8_2 a8_3 a8_4 a8_5 a9">2K Games</desenvolupador>
+  </desenvolupadora>
+  
+  <requisits>
+    <requisit ref="so_m8">Windows XP SP2</requisit>
+    <requisit ref="so_m9">Windows XP SP3</requisit>
+    <requisit ref="so_m1 so_m2 so_m4 so_m9">Windows 7 32 bits</requisit>
+    <requisit ref="so_m1 so_m2 so_r4 so_m6 so_m7 so_r8">Windows 7 64 bits SP1</requisit>
+    <requisit ref="so_r1 so_r2 so_r6 so_r7">Windows 10 64 bits</requisit>
+  </requisits>
+</jocs>

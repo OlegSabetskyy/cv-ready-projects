@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+/*---------*/
+/*HEADER*/
+/*-------*/
+header{
+    display:flex;
+    width: 100%;
+    border-bottom:1px solid #eeecec;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header span, header h2{
+    font-size: 17px;
+    margin:0px 15px;
+}
+
+header a{
+    padding: 7px 0px;
+    text-decoration: none;
+    color:black;
+}
+
+#siguiente{
+    color:#3c96eb;
+    padding: 7px 0px;
+}
+
+/*MAIN*/
+main{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 8px;
+}
+
+#imgAdalt{
+    display:flex;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+#imgAdalt img{
+    width: 100%;
+    height: 360px;
+}
+
+.filtres{
+    display:flex;
+/*    flex-direction: column;*/
+/*    width: 100%;*/
+    overflow-x: scroll;
+    overflow-y:hidden;
+/*    border:1px solid black;*/
+}
+
+.filtres_aplicats{
+    display:flex;
+}
+
+.filtres_aplicats figure{
+    flex-direction: column;
+/*    margin-left: 10px;*/
+}
+
+.filtre_concret{
+    display:flex;
+    flex-direction: column;
+    margin-left: 6.5px;
+    margin-right: 6.5px;
+}
+
+.filtre_concret:nth-child(1){
+    margin-left: 15px;
+}
+
+.filtre_concret:nth-last-child(1){
+    margin-right: 15px;
+}
+
+#nomFiltre, .filtre_concret p{
+    display:flex;
+    margin-bottom: 9px;
+    justify-content: center;
+}
+
+#nomFiltre p, .filtres_aplicats p{
+    font-size: 11px;
+    color:gray;
+/*    margin-right: 10px;*/
+}
+
+#filtreAplicat{
+    display:flex;
+    border:1px solid blue;
+}
+
+#filtreAplicat figure, .filtres_aplicats figure{
+/*    display:flex;*/
+    width: 111.59px;
+/*    border:1px solid red;*/
+    height: 111.59px;
+    
+}
+
+.filtre_concret figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.filtre_concret:nth-child(1) p{
+    color:black;
+}
+
+footer{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer p{
+    font-size: 15px;
+    color:#a0a0a0;
+    margin:18px 0px 0px 0px;
+    font-weight: 600;
+    text-decoration: none;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+        padding-bottom: 12px;
+
+}
+
+footer>p:nth-child(1){
+    color:#262626;
+    border-bottom:2px solid #262626;
+}
